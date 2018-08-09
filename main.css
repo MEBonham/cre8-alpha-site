@@ -2,7 +2,7 @@ body {
     background-color: #e0ecff;
 }
 
-#container {
+#max-container {
     width: 64em;
     margin: 24px auto;
     border-radius: 15px;
@@ -19,12 +19,15 @@ nav {
     height: 10em;
     background-image: url("mainpic.jpg");
     background-size: 100% 10em;
+    position: relative;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
-    list-style: none;
+    position: absolute; /* this and the following two lines are supposed to move this list to the bottom of nav */
+    bottom: 0;
+    left: 0;
 }
 
 nav li {
