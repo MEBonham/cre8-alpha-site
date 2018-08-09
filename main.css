@@ -87,7 +87,6 @@ nav li a {
 }
 
 #content {
-    margin: 15px;
     position: relative;
 }
 
@@ -97,10 +96,10 @@ h2 {
 
 #sidebar {
     width: 40%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: right;
+    background-color: #a3b4ce;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 #accordion {
@@ -195,15 +194,17 @@ h2 {
 }
 
 #sidebar img {
-    width: 100%;
+    margin: 15px;
+    width: 92%;
 }
 
 article {
     width: 60%;
+    padding: 15px;
 }
 
 article figure {
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: lightgray;
     padding: 4px;
 }
@@ -232,12 +233,10 @@ footer {
 footer ul {
     list-style: none;
     margin-left: 0;
-    padding-top: 0;
-    padding-bottom: 2px;
-    padding-left: 0;
+    padding: 2em;
 }
 
 footer li {
     float: left;
-    margin: 0 5px 0 0;
+    margin: 0 8px 0 0;
 }
