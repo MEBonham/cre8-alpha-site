@@ -1,6 +1,6 @@
 @font-face {
     font-family: Savor;
-    src: url(Savor.ttf);
+    src: url(assets/Savor.ttf);
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     margin: 24px auto;
     border-radius: 15px;
     background-color: #bac9e0;
-    padding: 2px;
+    padding: 0;
 }
 
 .to-be-centered {
@@ -42,10 +42,12 @@ header p {
 
 nav {
     clear: both;
+    width: 100%;
     height: 10em;
-    background-image: url("mainpic.jpg");
+    background-image: url("assets/mainpic.jpg");
     background-size: 100%;
     position: relative;
+    margin: 0;
 }
 
 nav ul {
@@ -130,6 +132,9 @@ h2 {
     box-sizing: border-box;         /* Opera/IE 8+ */
     padding: 5px 20px;
     border-radius: 0 0 10px 10px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
     display: none;
 }
 
@@ -147,6 +152,7 @@ h2 {
 
 .green-panel {
     background-color: #a6d8ab;
+    border-color: #217c2a;
 }
 
 .gold {
@@ -159,6 +165,7 @@ h2 {
 
 .gold-panel {
     background-color: #d9dd94;
+    border-color: #939b1b;
 }
 
 .red {
@@ -171,6 +178,7 @@ h2 {
 
 .red-panel {
     background-color: #d69e93;
+    border-color: #8e240f;
 }
 
 .gray {
@@ -183,6 +191,7 @@ h2 {
 
 .gray-panel {
     background-color: #d6d6d6;
+    border-color: gray;
 }
 
 #sidebar img {
