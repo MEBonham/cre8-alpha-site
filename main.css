@@ -1,8 +1,13 @@
+body {
+    background-color: #e0ecff;
+}
+
 #container {
     width: 64em;
     margin: 24px auto;
-    border-radius: 10px;
-    border: 1px solid black;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    background-color: #bac9e0;
 }
 
 #mainpic {
