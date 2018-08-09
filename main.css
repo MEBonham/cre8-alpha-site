@@ -38,6 +38,8 @@ nav li {
     border-bottom: 0;
     margin: 0 5px 0 0;
     background-color: lightgray;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 10px;
 }
 
 nav li a {
