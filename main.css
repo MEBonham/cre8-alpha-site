@@ -16,11 +16,11 @@ body {
 
 nav {
     background-image: url("mainpic.jpg");
-    background-size: 100%;
+    background-size: 100% 10em;
 }
 
 nav ul li {
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: white;
     display: inline;
 }
