@@ -9,6 +9,20 @@ body {
     background-color: #bac9e0;
 }
 
+header {
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+header p {
+    border: 1px solid;
+    margin-top: 0;
+}
+
 #page-icon {
     float: left;
     margin: 10px;
@@ -38,12 +52,13 @@ nav li {
     border-bottom: 0;
     margin: 0 5px 0 0;
     background-color: lightgray;
-    border-top-left-radius: 3px;
+    border-top-left-radius: 5px;
     border-top-right-radius: 10px;
 }
 
 nav li a {
     padding: 0 10px 2px 10px;
+    text-decoration: none;
 }
 
 #selected-tab {
