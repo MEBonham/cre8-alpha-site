@@ -90,11 +90,7 @@ nav li a {
     position: relative;
 }
 
-h2 {
-    font-family: Verdana, sans-serif;
-}
-
-h3 {
+h2, h3, h4 {
     font-family: Verdana, sans-serif;
 }
 
