@@ -19,8 +19,26 @@ nav {
     background-size: 100% 10em;
 }
 
-nav ul li {
-    border-radius: 3px;
-    background-color: white;
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
     display: inline;
+    border: solid;
+    border-width: 2px, 2px, 0, 2px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    background-color: lightgray;
+}
+
+nav li a {
+    padding: 0 10px;
+}
+
+#selected-tab {
+    background-color: #bac9e0;
+    padding-bottom: 2px;
 }
