@@ -10,6 +10,17 @@ body {
     background-color: #bac9e0;
 }
 
-#mainpic {
-    width: 100%;
+#page-icon {
+    float: left;
+}
+
+nav {
+    background-image: url("mainpic.jpg");
+    background-size: 100%;
+}
+
+nav ul li {
+    border-radius: 5px;
+    background-color: white;
+    display: inline;
 }
