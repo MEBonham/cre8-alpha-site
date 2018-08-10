@@ -238,6 +238,14 @@ article figcaption a:hover {
     text-decoration: underline;
 }
 
+article .character-sheet {
+    width: 100%;
+}
+
+#full-width {
+    width: 100%;
+}
+
 footer {
     clear: both;
     font-size: 0.8em;

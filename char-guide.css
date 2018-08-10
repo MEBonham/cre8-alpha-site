@@ -1,0 +1,261 @@
+.hover-region {
+    
+    border: 2px solid red;
+
+}
+
+.popup {
+    font-size: 0.9em;
+    display: none;
+    position: static;
+    background-color: #faffce;
+    margin: auto;
+    padding: 3px;
+}
+
+.hover-region:hover .popup {
+    display: block;
+}
+
+#player-name {
+    width: 11em;
+    height: 2.7em;
+    position: absolute;
+    top: 8em;
+    left: 31em;
+}
+
+#player-name-popup {
+    width: 12em;
+    margin: 1em auto;
+}
+
+#character-name {
+    width: 17em;
+    height: 3em;
+    position: absolute;
+    top: 10.5em;
+    left: 13em;
+}
+
+#character-name-popup {
+    width: 12em;
+    margin: 0.5em auto;
+}
+
+#xp {
+    width: 11em;
+    height: 2.5em;
+    position: absolute;
+    top: 11em;
+    left: 31em;
+}
+
+#xp-popup {
+    width: 12em;
+}
+
+#level {
+    width: 6em;
+    height: 2.5em;
+    position: absolute;
+    top: 13.5em;
+    left: 13em;
+}
+
+#level-popup {
+    width: 13em;
+}
+
+#epithet {
+    width: 11em;
+    height: 2.5em;
+    position: absolute;
+    top: 13.5em;
+    left: 19em;
+}
+
+#epithet-popup {
+    width: 13em;
+}
+
+#next-level {
+    width: 11em;
+    height: 2.5em;
+    position: absolute;
+    top: 13.5em;
+    left: 31em;
+}
+
+#next-level-popup {
+    width: 13em;
+}
+
+#portrait {
+    width: 18em;
+    height: 24.5em;
+    position: absolute;
+    top: 8em;
+    left: 42.5em;
+}
+
+#portrait-popup {
+    width: 13em;
+    margin: 10em auto;
+}
+
+#damage {
+    width: 6em;
+    height: 7em;
+    position: absolute;
+    top: 16.7em;
+    left: 8.2em;
+}
+
+#damage-popup {
+    width: 9em;
+}
+
+#rp-used {
+    width: 6em;
+    height: 7em;
+    position: absolute;
+    top: 16.7em;
+    left: 15.2em;
+}
+
+#rp-used-popup {
+    width: 9em;
+}
+
+#mp-used {
+    width: 6em;
+    height: 7em;
+    position: absolute;
+    top: 16.7em;
+    left: 22.5em;
+}
+
+#mp-used-popup {
+    width: 9em;
+}
+
+#vp-pool {
+    width: 6em;
+    height: 2.5em;
+    position: absolute;
+    top: 24em;
+    left: 8.2em;
+}
+
+#vp-pool-popup {
+    width: 9em;
+}
+
+#rp-pool {
+    width: 6em;
+    height: 2.5em;
+    position: absolute;
+    top: 24em;
+    left: 15.2em;
+}
+
+#rp-pool-popup {
+    width: 9em;
+}
+
+#mp-pool {
+    width: 6em;
+    height: 2.5em;
+    position: absolute;
+    top: 24em;
+    left: 22.5em;
+}
+
+#mp-pool-popup {
+    width: 9em;
+}
+
+#momentum-check {
+    width: 10em;
+    height: 2em;
+    position: absolute;
+    top: 17.4em;
+    left: 31em;
+}
+
+#momentum-check-popup {
+    width: 12em;
+}
+
+#exerted-check {
+    width: 10em;
+    height: 2em;
+    position: absolute;
+    top: 19.65em;
+    left: 31em;
+}
+
+#exerted-check-popup {
+    width: 12em;
+}
+
+#wounded-check {
+    width: 10em;
+    height: 2em;
+    position: absolute;
+    top: 21.9em;
+    left: 31em;
+}
+
+#wounded-check-popup {
+    width: 12em;
+}
+
+#dying-check {
+    width: 10em;
+    height: 2em;
+    position: absolute;
+    top: 24.15em;
+    left: 31em;
+}
+
+#dying-check-popup {
+    width: 12em;
+}
+
+#wealth {
+    width: 6em;
+    height: 2.7em;
+    position: absolute;
+    top: 26.5em;
+    left: 8.2em;
+}
+
+#wealth-popup {
+    width: 9em;
+}
+
+#init-count {
+    width: 6em;
+    height: 2.7em;
+    position: absolute;
+    top: 26.5em;
+    left: 15.2em;
+}
+
+#init-count-popup {
+    width: 9em;
+}
+
+#other-conditions {
+    width: 19em;
+    height: 3em;
+    position: absolute;
+    top: 26.5em;
+    left: 22.5em;
+}
+
+#other-conditions-popup {
+    width: 17em;
+}
