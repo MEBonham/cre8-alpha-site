@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../main.css">
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script src="../scripts/accordion.js"></script>
+        <script src="../scripts/jQuery-toc.js"></script>
     </head>
     <body>
         <div id="max-container">
@@ -31,14 +32,10 @@
             <div id="content">
                 <div id="sidebar">
                     <ul>
-                        <li><a href="CharacterGuide.html">Character Guide</a></li>
-                        <li><a href="Kits.html">Kits</a></li>
-                        <li><a href="Feats.html">Feats</a></li>
-                        <li><a href="Talents.html">Talents</a></li>
-                        <li><a href="XP.html">Character Advancement</a></li>
+                        <li><a href="DiceMechanics.html">Dice Mechanics in CRE8</a></li>
                     </ul>
                     <div id="accordion">
-                        <h4 class="green accordion-toggle">RPG Jargon</h4>
+                        <h2 class="green accordion-toggle">RPG Jargon</h2>
                         <div class="green-panel accordion-content default">
                             <p><strong>Adventure:</strong> A significant "chapter" of the game's story.</p>
                             <p><strong>Adventurer:</strong> A person who makes a career out of going on dangerous adventures. The typical life occupation of PCs.</p>
@@ -53,6 +50,10 @@
                             <p><strong>Rule Zero:</strong> A quick term for the principle that the GM can override any of the game's normal rules in the interest of making the story better. This may work in the PCs' favor, or it may work against them; it's all up to the GM. GMs, please use this authority responsibly; it is intended to make people have more fun, not as a power trip. Also, in many playgroups, it goes over better if you openly acknowledge that your are invoking "Rule Zero," rather than pretending that you are following the game's normal rules.</p>
                             <p><strong>Session:</strong> One continuous "block" of playing an RPG is called a session. A session typically lasts for several hours.</p>
                         </div>
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
                     </div>
                 </div>
                 <article>
@@ -66,7 +67,7 @@
                     <h4>Role of the Dice</h4>
                     <p>When someone tries to do something difficult or risky, dice are used to determine the outcome. This helps to keep the game somewhat fair and less predictable.</p>
                     <h4>Role-Playing</h4>
-                    <p>It's called a "Role-Playing" game because you don't just state what a character does or what happens in the story, you act it out, at least a little bit. You think about what your character would do in a situation, not necessarily what you yourself would do. You speak as your character, sometimes. This makes the game even more of a creative outlet.
+                    <p>It's called a "Role-Playing" game because you don't just state what a character does or what happens in the story, you act it out, at least a little bit. You think about what your character would do in a situation, not necessarily what you yourself would do. You speak as your character, sometimes. This makes the game even more of a creative outlet.</p>
                     <h3>Diversity of Play</h3>
                     <p>People play RPGs in a lot of different ways. Sometimes the campaign setting is something the GM has come up with herself; sometimes it is borrowed from an external source, such as a published setting, a series of novels, or a friend's ideas.</p>
                     <p>Sometimes the PCs are confronted with an obvious adventure in order to accomplish obvious goals (like "survive" or "save the world"). Sometimes, the GM creates this adventure; sometimes it is guided by a published adventure (also known as a "module"). Other times, the PCs are allowed to basically follow their individual motivations and figure out what adventure they want to have. (This is sometimes known as "sandbox-style play.")</p>
@@ -88,7 +89,7 @@
                     <p>RPG rules will often instruct you to roll two numbers with a 'd' in between them, such as "roll 3d8." This means that you roll a number of dice equal to the first number, each with a number of sides equal to the second number. For example, 3d8 would mean to roll three 8-sided dice and (usually) add their results together to get a total result.</p>
                     <h4>d% or d100</h4>
                     <p>Sometimes RPG rules will instruct you to roll d% or d100. (This is rare in CRE8.) If you do not have access to a 100-sided die (a specialty item), you can get the same results by rolling two different d10s; your final result gets its tens'-place digit from one die, and its ones'-place digit from the other die. (Most dice sets come with a d10 already marked with '10', '20', '30', etc., to facilitate this very thing.) When rolling d%, do not treat a '0' as a '10', unless you get a result of '0' (or '00') on both dice, indicating a final result of 100.</p>
-                    <p>For more about dice specifically in CRE8, see Dice Mechanics.</p>
+                    <p>For more about dice specifically in CRE8, see <a href="DiceMechanics.html">Dice Mechanics</a>.</p>
                 </article>
             </div>
             <footer>
@@ -97,10 +98,13 @@
                         <li>Links:</li>
                         <li><a href="https://wiki.roll20.net/Introduction_To_Tabletop_RPGs" target="_blank">Roll20's Orientation to Tabletop RPGs'</a></li>
                         <li><a href="http://www.d20srd.org/extras/d20dicebag" target="_blank">Dice Bag: basic online dice utility</a></li>
-                        <li><a href="https://anydice.com" target="_blank">Anydice: advanced dice statistics</a></li>
                     </ul>
                 </div>
             </footer>
         </div>
     </body>
 </html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

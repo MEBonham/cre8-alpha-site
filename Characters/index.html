@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../main.css">
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script src="../scripts/accordion.js"></script>
+        <script src="../scripts/jQuery-toc.js"></script>
     </head>
     <body>
         <div id="max-container">
@@ -38,26 +39,27 @@
                         <li><a href="XP.html">Character Advancement</a></li>
                     </ul>
                     <div id="accordion">
-                        <h4 class="gray accordion-toggle">Character Sheets</h4>
+                        <h2 class="gray accordion-toggle">Character Sheets</h2>
                         <div class="gray-panel accordion-content default">
                             <p><a href="../assets/CRE8-A-char-1.20.pdf">Character Sheet</a></p>
                             <p>Click the link above to view your character sheet in-browser, or right-click and find an option similar to "Save Link As..." in order to work offline.</p>
                             <p>You can fill out your character sheet electronically, or print it out and fill it out with a pencil. If you want to do it electronically but you don't have a PDF viewer program that plays nicely with form fields, check out <a href="https://www.foxitsoftware.com/downloads/" target="_blank">Foxit</a>.</p>
                         </div>
-                        <h4 class="gold accordion-toggle">Table of Contents</h4>
-                        <div class="gold-panel accordion-content">
-                            <p>This will eventually have a Table of Contents list to various anchors on this page.</p>
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content" id="TOC">
+                            <!-- Populated by JavaScript -->
                         </div>
-                        <h4 class="green accordion-toggle">Overwhelmed?</h4>
+                        <h2 class="green accordion-toggle">Overwhelmed?</h2>
                         <div class="green-panel accordion-content">
                             <p>If going through the options available for special abilites feels like too much work, feel free to look at the <a href="../Bestiary/PreBuilt.html">Pre-Built Characters</a> in the Bestiary section! You'll only have to make a couple small choices to customize your character!</p>
                         </div>
                     </div>
                 </div>
                 <article>
-                    <h2>Step 0</h2>
+                    <h2>Character Creation</h2>
+                    <h3>Step 0</h3>
                     <p>If you're new to CRE8, check out the <a href="CharacterGuide.html">Character Guide</a> to learn what a character's statistics are. Then get yourself <a href="../assets/CRE8-A-char-1.20.pdf">a Character Sheet</a> (see sidebar for instructions).</p>
-                    <h2>Step 1: Strong Save</h2>
+                    <h3>Step 1: Strong Save</h2>
                     <p>Choose one:</p>
                     <ul>
                         <li>Base Fortitude +2</li>
@@ -81,3 +83,7 @@
         </div>
     </body>
 </html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2, containerType: 'ul'}); // h3 and h4 only - method:1
+</script>

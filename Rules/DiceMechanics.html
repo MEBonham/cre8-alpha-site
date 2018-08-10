@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+        <link rel="stylesheet" href="../main.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="../scripts/accordion.js"></script>
+        <script src="../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Characters/index.html">Characters</a></li>
+                    <li id="selected-tab"><a href="index.html">Rules</a></li>
+                    <li><a href="../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../Magic/index.html">Magic</a></li>
+                    <li><a href="../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../Examples/index.html">Examples</a></li>
+                    <li><a href="../Context/index.html">Context</a></li>
+                    <li><a href="../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <div id="accordion">
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content default" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                        <h2 class="green accordion-toggle">"Natural" Die Results</h2>
+                        <div class="green-panel accordion-content">
+                            <p>When the rules refer to a "natural" die result, that refers to the number shown on the die, before any modifiers are added to it. For example, a "natural 20" is when a d20, rolled in the normal way (the middle result of 3d20), displays a 20.</p>
+                        </div>
+                        <h2 class="green accordion-toggle">Opposed Die Rolls</h2>
+                        <div class="green-panel accordion-content">
+                            <p>When the rules refer to "opposed" die rolls, it means two characters both roll and compare their results. The character with the higher result "wins" whatever contest is at hand. If there is a tie, the character with the <em>lower</em> natural die result wins. If there is still a tie, repeat the contest&mdash;although in some cases, the GM may rule that it takes more time (e.g. another round in combat) to resolve the contest in this case!</p>
+                        </div>
+                        <h2 class="red accordion-toggle">Stacking and Overlapping Modifiers</h2>
+                        <div class="red-panel accordion-content">
+                            <p>When two or more modifiers apply to a die roll, all of them count towards the final result. This is called "stacking."</p>
+                            <p>The exception is when two modifiers of the same <em>type</em> apply to a roll. In this case, only the strongest modifier (the biggest bonus or the most negative penalty) applies; the other modifier is ignored. This is called "overlapping" modifiers.</p>
+                            <p>There might be an exception to the exception where the rules specifically state that modifiers of the same type stack.</p>
+                            <p>Some of the main "types" of modifiers in CRE8 include:</p>
+                            <ul>
+                                <li><strong>Circumstance:</strong> a "miscellaneous" modifier, caused by surroundings or situation. Different circumstance modifiers do stack with each other.</li>
+                                <li><strong>Deflection:</strong> a special bonus to defensive rolls representing blocking, e.g. with a shield.</li>
+                                <li><strong>Encumbrance:</strong> a penalty to certain skills due to carrying too much stuff.</li>
+                                <li><strong>Feat:</strong> a catch-all for bonuses due to special abilities.</li>
+                                <li><strong>Item:</strong> a bonus due to superior equipment.</li>
+                                <li><strong>Racial:</strong> a bonus due to innate talents of a certain kind of creature.</li>
+                                <li><strong>Size:</strong> a bonus or penalty due to a creature's size. Different size modifiers do stack with each other, although a creature can only have one size at a time.</li>
+                                <li><strong>Synergy:</strong> a bonus due to expertise in a related Skill.</li>
+                                <li><strong>Unnamed:</strong> the true "miscellaneous" category, covering any modifier that has no other type assigned to it. Unnamed modifiers from different sources do stack with each other.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <article>
+                    <h2>Dice Mechanics</h2>
+                    <h3>3d20-mid</h3>
+                    <p>Most rolls in CRE8 are of the following form: roll 3d20. Do not add the results together. Instead, drop the highest result (or one of the highest if there is a tie) and the lowest result (same). Take the value of the remaining die, the middle result. Add any positive modifiers ("bonuses") that apply to your die roll, and subtract any negative modifiers ("penalties") that apply to your die roll. The sum is your result. Normally you will be rolling a check for a particular statistic on your character sheet, and your character sheet will tell you what total to add to the die roll.</p>
+                    <h3>Situational Modifications</h4>
+                    <h4>Advantage</h4>
+                    <p>Sometimes the rules give you "Advantage" on a die roll. Sometimes the GM grants you ad hoc Advantage. In these cases, roll only 2d20 instead of 3d20, and take the higher result and add modifiers to it. Having Advantage multiple times on a single roll does not further improve what you do.</p>
+                    <h4>Disadvantage</h4>
+                    <p>Sometimes the rules give you "Disadvantage" on a die roll. Sometimes the GM inflicts you with ad hoc Disadvantage. In these cases, roll only 2d20 instead of 3d20, and take the lower result and add modifiers to it. Having Disadvantage multiple times on a single roll does not further reduce your chances.</p>
+                    <h4>Advantage AND Disadvantage</h4>
+                    <p>Sometimes you may even have Advantage and Disadvantage on the same roll, due to different circumstances affecting you. In this case, the results of your action become less predictible: roll only a single d20 and apply your modifiers to get your result. This happens if you have both Advantage and Disadvantage at least once, no matter how many reasons you have each of them.</p>
+                    <h3>Coasting</h3>
+                    <p>Sometimes when a character makes a skill check, their skills are such that they cannot perform truly abysmally. This is represented by Coasting. Coasting can only be done when you are not under pressure (such as in combat), and there are some actions (like swimming) that cannot be coasted. Special abilities can overcome either of these. For example, the Swimmer Talent lets you coast checks to swim.</p>
+                    <p>When you make a skill check and are able to coast, and your natural die result is less than your Coast Number, pretend your natural die result was your Coast Number instead, and determine your final result accordingly.</p>
+                    <h3>Roll Replacement</h3>
+                    <p>Some special abilities give you effective bonuses or penalties by having you replace your normal modifiers with a different statistic from your character sheet. In this case, roll the dice normally and apply the "new" statistic's modifiers and treat that as your result, ignoring what modifiers it would have had normally.</p>
+                    <h4>Awesome Checks</h4>
+                    <p>In fact, there is a statistic on your character sheet that is there just for the purposes of Roll Replacement. It is called your Awesome Check, and it is normally higher than other statistics.</p>
+                    <h4>"Capped" Checks</h4>
+                    <p>On the other hand, there are situations where you are just not equipped to do very well at a certain task. In these sad cases, a skill check you make may be "Capped." This requires you to replace your regular roll with a Heroic Bonus Check&mdash;but only if doing so is disadvantageous.</p>
+                    <p>Normally, there are special abilities that let you overcome Capped skill checks. For example, picking a lock is a Capped skill check, unless you have the Lockpicking Talent.</p>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://wiki.roll20.net/Dice_Reference" target="_blank">Roll20 Dice Reference</a></li>
+                        <li><a href="http://www.d20srd.org/extras/d20dicebag" target="_blank">Dice Bag: basic online dice utility</a></li>
+                        <li><a href="https://anydice.com/program/110d1" target="_blank">Anydice: advanced dice statistics</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+    console.log("This runs");
+</script>

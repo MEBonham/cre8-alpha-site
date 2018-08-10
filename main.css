@@ -193,6 +193,19 @@ h2, h3, h4 {
     border-color: gray;
 }
 
+#TOC ol {
+    counter-reset: item;
+}
+
+#TOC ol li {
+    display: block;
+}
+
+#TOC ol li:before {
+    content: counters(item, ".")" ";
+    counter-increment: item;
+}
+
 #sidebar img {
     margin: 15px;
     width: 92%;
