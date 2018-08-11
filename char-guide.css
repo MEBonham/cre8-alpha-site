@@ -1,3 +1,11 @@
+
+article {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding: 0;
+}
+
 .hover-region {
     
     border: 2px solid red;
@@ -21,8 +29,8 @@
     width: 11em;
     height: 2.7em;
     position: absolute;
-    top: 8em;
-    left: 31em;
+    top: 7.5em;
+    left: 30em;
 }
 
 #player-name-popup {
@@ -34,8 +42,8 @@
     width: 17em;
     height: 3em;
     position: absolute;
-    top: 10.5em;
-    left: 13em;
+    top: 9.6em;
+    left: 12.2em;
 }
 
 #character-name-popup {
@@ -47,8 +55,8 @@
     width: 11em;
     height: 2.5em;
     position: absolute;
-    top: 11em;
-    left: 31em;
+    top: 10.2em;
+    left: 30em;
 }
 
 #xp-popup {
@@ -59,8 +67,8 @@
     width: 6em;
     height: 2.5em;
     position: absolute;
-    top: 13.5em;
-    left: 13em;
+    top: 12.7em;
+    left: 12.2em;
 }
 
 #level-popup {
@@ -71,8 +79,8 @@
     width: 11em;
     height: 2.5em;
     position: absolute;
-    top: 13.5em;
-    left: 19em;
+    top: 12.7em;
+    left: 18.2em;
 }
 
 #epithet-popup {
@@ -83,8 +91,8 @@
     width: 11em;
     height: 2.5em;
     position: absolute;
-    top: 13.5em;
-    left: 31em;
+    top: 12.7em;
+    left: 30em;
 }
 
 #next-level-popup {
@@ -95,8 +103,8 @@
     width: 18em;
     height: 24.5em;
     position: absolute;
-    top: 8em;
-    left: 42.5em;
+    top: 7em;
+    left: 41.5em;
 }
 
 #portrait-popup {
@@ -108,8 +116,8 @@
     width: 6em;
     height: 7em;
     position: absolute;
-    top: 16.7em;
-    left: 8.2em;
+    top: 15.7em;
+    left: 7.2em;
 }
 
 #damage-popup {
@@ -120,8 +128,8 @@
     width: 6em;
     height: 7em;
     position: absolute;
-    top: 16.7em;
-    left: 15.2em;
+    top: 15.7em;
+    left: 14.3em;
 }
 
 #rp-used-popup {
@@ -132,8 +140,8 @@
     width: 6em;
     height: 7em;
     position: absolute;
-    top: 16.7em;
-    left: 22.5em;
+    top: 15.7em;
+    left: 21.6em;
 }
 
 #mp-used-popup {
@@ -144,8 +152,8 @@
     width: 6em;
     height: 2.5em;
     position: absolute;
-    top: 24em;
-    left: 8.2em;
+    top: 23em;
+    left: 7.2em;
 }
 
 #vp-pool-popup {
@@ -156,8 +164,8 @@
     width: 6em;
     height: 2.5em;
     position: absolute;
-    top: 24em;
-    left: 15.2em;
+    top: 23em;
+    left: 14.3em;
 }
 
 #rp-pool-popup {
@@ -168,8 +176,8 @@
     width: 6em;
     height: 2.5em;
     position: absolute;
-    top: 24em;
-    left: 22.5em;
+    top: 23em;
+    left: 21.6em;
 }
 
 #mp-pool-popup {
@@ -180,8 +188,8 @@
     width: 10em;
     height: 2em;
     position: absolute;
-    top: 17.4em;
-    left: 31em;
+    top: 16.4em;
+    left: 30.1em;
 }
 
 #momentum-check-popup {
@@ -192,8 +200,8 @@
     width: 10em;
     height: 2em;
     position: absolute;
-    top: 19.65em;
-    left: 31em;
+    top: 18.65em;
+    left: 30.1em;
 }
 
 #exerted-check-popup {
@@ -204,8 +212,8 @@
     width: 10em;
     height: 2em;
     position: absolute;
-    top: 21.9em;
-    left: 31em;
+    top: 20.9em;
+    left: 30.1em;
 }
 
 #wounded-check-popup {
@@ -216,8 +224,8 @@
     width: 10em;
     height: 2em;
     position: absolute;
-    top: 24.15em;
-    left: 31em;
+    top: 23.15em;
+    left: 30.1em;
 }
 
 #dying-check-popup {
@@ -228,8 +236,8 @@
     width: 6em;
     height: 2.7em;
     position: absolute;
-    top: 26.5em;
-    left: 8.2em;
+    top: 25.5em;
+    left: 7.2em;
 }
 
 #wealth-popup {
@@ -240,8 +248,8 @@
     width: 6em;
     height: 2.7em;
     position: absolute;
-    top: 26.5em;
-    left: 15.2em;
+    top: 25.5em;
+    left: 14.3em;
 }
 
 #init-count-popup {
@@ -252,10 +260,338 @@
     width: 19em;
     height: 3em;
     position: absolute;
-    top: 26.5em;
-    left: 22.5em;
+    top: 25.5em;
+    left: 21.6em;
 }
 
 #other-conditions-popup {
     width: 17em;
+}
+
+#descriptive-summary {
+    width: 54em;
+    height: 17em;
+    position: absolute;
+    top: 30.5em;
+    left: 4.6em;
+}
+
+#descriptive-summary-popup {
+    width: 17em;
+    margin: 6em auto;
+}
+
+#fort-save {
+    width: 5.5em;
+    height: 4em;
+    position: absolute;
+    top: 49.4em;
+    left: 5.1em;
+}
+
+#fort-save-popup {
+    width: 12em;
+}
+
+#ref-save {
+    width: 5.1em;
+    height: 4em;
+    position: absolute;
+    top: 49.4em;
+    left: 10.6em;
+}
+
+#ref-save-popup {
+    width: 12em;
+}
+
+#will-save {
+    width: 5.5em;
+    height: 3.5em;
+    position: absolute;
+    top: 53.4em;
+    left: 5.1em;
+}
+
+#will-save-popup {
+    width: 12em;
+}
+
+#def-save {
+    width: 5.1em;
+    height: 3.5em;
+    position: absolute;
+    top: 53.4em;
+    left: 10.6em;
+}
+
+#def-save-popup {
+    width: 12em;
+}
+
+#av {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 49.4em;
+    left: 15.8em;
+}
+
+#av-popup {
+    width: 12em;
+}
+
+#resist-val {
+    width: 5.1em;
+    height: 5em;
+    position: absolute;
+    top: 49.4em;
+    left: 20.8em;
+}
+
+#resist-val-popup {
+    width: 12em;
+}
+
+#heroic-bonus {
+    width: 5em;
+    height: 3.5em;
+    position: absolute;
+    top: 54.4em;
+    left: 15.8em;
+}
+
+#heroic-bonus-popup {
+    width: 12em;
+}
+
+#spellcraft {
+    width: 5.1em;
+    height: 3.5em;
+    position: absolute;
+    top: 54.4em;
+    left: 20.8em;
+}
+
+#spellcraft-popup {
+    width: 12em;
+}
+
+#awesome {
+    width: 5em;
+    height: 3.5em;
+    position: absolute;
+    top: 57.9em;
+    left: 15.8em;
+}
+
+#awesome-popup {
+    width: 12em;
+}
+
+#coast-num {
+    width: 5.1em;
+    height: 3.5em;
+    position: absolute;
+    top: 57.9em;
+    left: 20.8em;
+}
+
+#coast-num-popup {
+    width: 12em;
+}
+
+#athletics {
+    width: 5.5em;
+    height: 3em;
+    position: absolute;
+    top: 57.6em;
+    left: 5.1em;
+}
+
+#athletics-popup {
+    width: 12em;
+}
+
+#glibness {
+    width: 5.1em;
+    height: 3em;
+    position: absolute;
+    top: 57.6em;
+    left: 10.6em;
+}
+
+#glibness-popup {
+    width: 12em;
+}
+
+#brawn {
+    width: 5.5em;
+    height: 2.4em;
+    position: absolute;
+    top: 60.5em;
+    left: 5.1em;
+}
+
+#brawn-popup {
+    width: 12em;
+}
+
+#knowledge {
+    width: 5.1em;
+    height: 2.4em;
+    position: absolute;
+    top: 60.5em;
+    left: 10.6em;
+}
+
+#knowledge-popup {
+    width: 12em;
+}
+
+#charisma {
+    width: 5.5em;
+    height: 2.4em;
+    position: absolute;
+    top: 62.9em;
+    left: 5.1em;
+}
+
+#charisma-popup {
+    width: 12em;
+}
+
+#nature {
+    width: 5.1em;
+    height: 2.4em;
+    position: absolute;
+    top: 62.9em;
+    left: 10.6em;
+}
+
+#nature-popup {
+    width: 12em;
+}
+
+#dexterity {
+    width: 5.5em;
+    height: 2.4em;
+    position: absolute;
+    top: 65.3em;
+    left: 5.1em;
+}
+
+#dexterity-popup {
+    width: 12em;
+}
+
+#perception {
+    width: 5.1em;
+    height: 2.4em;
+    position: absolute;
+    top: 65.3em;
+    left: 10.6em;
+}
+
+#perception-popup {
+    width: 12em;
+}
+
+#gadgetry {
+    width: 5.5em;
+    height: 2.7em;
+    position: absolute;
+    top: 67.7em;
+    left: 5.1em;
+}
+
+#gadgetry-popup {
+    width: 12em;
+}
+
+#stealth {
+    width: 5.1em;
+    height: 2.7em;
+    position: absolute;
+    top: 67.7em;
+    left: 10.6em;
+}
+
+#stealth-popup {
+    width: 12em;
+}
+
+#traits {
+    width: 10.1em;
+    height: 9.5em;
+    position: absolute;
+    top: 61.4em;
+    left: 15.8em;
+}
+
+#traits-popup {
+    width: 12em;
+    margin: 3em auto;
+}
+
+#speed {
+    width: 5.5em;
+    height: 2.7em;
+    position: absolute;
+    top: 71.2em;
+    left: 5.1em;
+}
+
+#speed-popup {
+    width: 12em;
+}
+
+#move-options {
+    width: 15.5em;
+    height: 4em;
+    position: absolute;
+    top: 71.2em;
+    left: 10.6em;
+}
+
+#move-options-popup {
+    width: 14em;
+}
+
+#main-attack {
+    width: 32em;
+    height: 5em;
+    position: absolute;
+    top: 49.4em;
+    left: 27.7em;
+}
+
+#main-attack-popup {
+    width: 25em;
+}
+
+#other-standards {
+    width: 32em;
+    height: 10.2em;
+    position: absolute;
+    top: 54.4em;
+    left: 27.7em;
+}
+
+#other-standards-popup {
+    width: 25em;
+    margin: 4em auto;
+}
+
+#other-abilities {
+    width: 32em;
+    height: 12.2em;
+    position: absolute;
+    top: 64.6em;
+    left: 27.7em;
+}
+
+#other-abilities-popup {
+    width: 25em;
+    margin: 5em auto;
 }
