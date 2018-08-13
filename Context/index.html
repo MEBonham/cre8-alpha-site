@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+        <link rel="stylesheet" href="../main.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="../scripts/accordion.js"></script>
+        <script src="../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Characters/index.html">Characters</a></li>
+                    <li><a href="../Rules/index.html">Rules</a></li>
+                    <li><a href="../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../Magic/index.html">Magic</a></li>
+                    <li><a href="../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../Examples/index.html">Examples</a></li>
+                    <li id="selected-tab"><a href="index.html">Context</a></li>
+                    <li><a href="../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <div id="accordion">
+                        <h1 class="gold accordion-toggle">Table of Contents</h1>
+                        <div class="gold-panel accordion-content default" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <article>
+                    <h2>Settings</h2>
+                    <h3>Ferkathas</h3>
+                    <h4>NPCs</h4>
+                    <h3>Gyzaninar</h3>
+                    <h2>Modules</h2>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                        <li><a href="http://dnd.wizards.com" target="_blank">Dungeons & Dragons homepage</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 2, depth: 3}); // h3 and h4 only - method:1
+</script>

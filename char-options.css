@@ -1,0 +1,25 @@
+
+dl {
+    width: 100%;
+    padding: 0;
+}
+
+dt {
+    width: 30%;
+    clear: both;
+    float: left;
+    text-align: right;
+    margin-right: 0.4em;
+}
+
+dd {
+    font-style: italic;
+}
+
+dd:before {
+	content: "•  ";
+}
+
+h4 {
+    clear: both;
+}
