@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+        <link rel="stylesheet" href="../main.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="../scripts/accordion.js"></script>
+        <script src="../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Characters/index.html">Characters</a></li>
+                    <li id="selected-tab"><a href="index.html">Rules</a></li>
+                    <li><a href="../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../Magic/index.html">Magic</a></li>
+                    <li><a href="../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../Examples/index.html">Examples</a></li>
+                    <li><a href="../Context/index.html">Context</a></li>
+                    <li><a href="../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="Basics.html">RPG Basics</a></li>
+                        <li><a href="DiceMechanics.html">Dice Mechanics</a></li>
+                        <li><a href="Combat.html">Combat</a></li>
+                        <li><a href="Attacks.html">Attacks</a></li>
+                        <li><a href="Momentum.html">Momentum</a></li>
+                    </ul>
+                    <div id="accordion">
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content default" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <article>
+                    <h2>Glossary</h2>
+                    <h3>A</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Adventure</a></dt>
+                        <dt><a href="Basics.html">Adventurer</a></dt>
+                        <dt><a href="Basics.html">Adventuring Party</a></dt>
+                    </dl>
+                    <h3>B</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Backstory</a></dt>
+                    </dl>
+                    <h3>C</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Campaign</a></dt>
+                        <dt><a href="Basics.html">Campaign Setting</a></dt>
+                    </dl>
+                    <h3>D</h3>
+                    <h3>E</h3>
+                    <h3>F</h3>
+                    <h3>G</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Game System</a></dt>
+                    </dl>
+                    <h3>H</h3>
+                    <h3>I</h3>
+                    <h3>J</h3>
+                    <h3>K</h3>
+                    <h3>L</h3>
+                    <h3>M</h3>
+                    <h3>N</h3>
+                    <dl>
+                        <dt><a href="Basics.html">NdS</a></dt>
+                        <dt><a href="Basics.html">NPC</a></dt>
+                    </dl>
+                    <h3>O</h3>
+                    <h3>P</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Party</a></dt>
+                        <dt><a href="Basics.html">Playgroup</a></dt>
+                    </dl>
+                    <h3>Q</h3>
+                    <h3>R</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Rule Zero</a></dt>
+                    </dl>
+                    <h3>S</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Session</a></dt>
+                    </dl>
+                    <h3>T</h3>
+                    <dl>
+                        <dt><a href="Basics.html">Target Number</a></dt>
+                        <dt><a href="Basics.html">TN</a></dt>
+                    </dl>
+                    <h3>U</h3>
+                    <h3>V</h3>
+                    <h3>W</h3>
+                    <h3>X</h3>
+                    <h3>Y</h3>
+                    <h3>Z</h3>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2, containerType: 'ul'}); // h3 and h4 only - method:1
+    console.log("This runs");
+</script>
