@@ -7,9 +7,9 @@ article {
 }
 
 .hover-region {
-    
+    /*
     border: 2px solid red;
-
+    */
 }
 
 .popup {
@@ -594,4 +594,182 @@ article {
 #other-abilities-popup {
     width: 25em;
     margin: 5em auto;
+}
+
+#fight-level {
+    width: 18.5em;
+    height: 3.6em;
+    position: absolute;
+    top: 93.5em;
+    left: 4.8em;
+}
+
+#fight-level-popup {
+    width: 22em;
+}
+
+#caster-level {
+    width: 18.5em;
+    height: 2.9em;
+    position: absolute;
+    top: 97.1em;
+    left: 4.8em;
+}
+
+#caster-level-popup {
+    width: 18em;
+}
+
+#repeat-stats {
+    width: 18.5em;
+    height: 9.9em;
+    position: absolute;
+    top: 100em;
+    left: 4.8em;
+}
+
+#repeat-stats-popup {
+    width: 18em;
+    margin: 2.5em auto;
+}
+
+#skill-calculation {
+    width: 19.5em;
+    height: 30.9em;
+    position: absolute;
+    top: 111em;
+    left: 4.8em;
+}
+
+#skill-calculation-popup {
+    width: 19em;
+    margin: 6.5em auto;
+}
+
+#synergy-table {
+    width: 19.5em;
+    height: 4.9em;
+    position: absolute;
+    top: 141.9em;
+    left: 4.8em;
+}
+
+#synergy-table-popup {
+    width: 22em;
+}
+
+#kits {
+    width: 10.5em;
+    height: 13.9em;
+    position: absolute;
+    top: 98.7em;
+    left: 25.3em;
+}
+
+#kits-popup {
+    width: 10.5em;
+    margin: 3.5em auto;
+}
+
+#feats {
+    width: 23.8em;
+    height: 7.7em;
+    position: absolute;
+    top: 98.7em;
+    left: 35.9em;
+}
+
+#feats-popup {
+    width: 19em;
+    margin: 1.5em auto;
+}
+
+#talents {
+    width: 23.8em;
+    height: 11.9em;
+    position: absolute;
+    top: 106.4em;
+    left: 35.9em;
+}
+
+#talents-popup {
+    width: 19em;
+    margin: 3.5em auto;
+}
+
+#armor {
+    width: 21.8em;
+    height: 6.9em;
+    position: absolute;
+    top: 121.3em;
+    left: 24.5em;
+}
+
+#armor-popup {
+    width: 20em;
+    margin: 1em auto;
+}
+
+#ammo {
+    width: 13.4em;
+    height: 6.9em;
+    position: absolute;
+    top: 121.3em;
+    left: 46.3em;
+}
+
+#ammo-popup {
+    width: 13em;
+    margin: 1em auto;
+}
+
+#other-equipment {
+    width: 29.1em;
+    height: 6.2em;
+    position: absolute;
+    top: 128.2em;
+    left: 24.5em;
+}
+
+#other-equipment-popup {
+    width: 20em;
+    margin: 1em auto;
+}
+
+#total-bulk {
+    width: 6em;
+    height: 2.3em;
+    position: absolute;
+    top: 132.2em;
+    left: 53.8em;
+}
+
+#total-bulk-popup {
+    width: 12em;
+}
+
+#magic-items {
+    width: 35.1em;
+    height: 9.5em;
+    position: absolute;
+    top: 136em;
+    left: 24.5em;
+}
+
+#magic-items-popup {
+    width: 20em;
+    margin: 1em auto;
+}
+
+#rituals {
+    width: 53.3em;
+    height: 11.9em;
+    position: absolute;
+    top: 147.6em;
+    left: 4.8em;
+}
+
+#rituals-popup {
+    width: 25em;
+    margin: 3em auto;
 }
