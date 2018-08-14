@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="../small-sidebar.css">
+
+        <script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../scripts/jQuery-toc.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.hashchange.min.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.easytabs.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready( function() {
+                $('.tab-container').easytabs();
+            });
+        </script>
+
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Characters/index.html">Characters</a></li>
+                    <li><a href="../Rules/index.html">Rules</a></li>
+                    <li><a href="../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../Magic/index.html">Magic</a></li>
+                    <li id="selected-tab"><a href="index.html">Bestiary</a></li>
+                    <li><a href="../Examples/index.html">Examples</a></li>
+                    <li><a href="../Context/index.html">Context</a></li>
+                    <li><a href="../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <div id="accordion">
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content default" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <article>
+                    <h2>Bestiary</h2>
+                    <div class="statblock tab-container">
+                        <h3>Cave Rat - Level 1</h3>
+                        <ul class="etabs">
+                            <li class="tab"><a href="#cave-rat-overview">Overview</a></li>
+                            <li class="tab"><a href="#cave-rat-actions">Actions</a></li>
+                            <li class="tab"><a href="#cave-rat-inventory">Inventory</a></li>
+                            <li class="tab"><a href="#cave-rat-lifestyle">Lifestyle</a></li>
+                            <li class="tab"><a href="#cave-rat-mechanics">Mechanics</a></li>
+                        </ul>
+                        <div class="panel-container">
+                            <div id="cave-rat-overview">
+
+                                <table>
+                                    <tr>
+                                        <td><strong>Fortitude</strong> +0</td>
+                                        <td><strong>Reflex</strong> +2</td>
+                                        <td><strong>Willpower</strong> +0</td>
+                                        <td><strong>Defense</strong> +2</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>VP</strong> 9</td>
+                                        <td><strong>AV</strong> 0</td>
+                                        <td><strong>Resistance</strong> 5</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Coast Number</strong> 7</td>
+                                        <td><strong>Awesome</strong> +5</td>
+                                        <td><strong>Heroic/Spellcraft</strong> +0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>XP Reward</strong> 25</td>
+                                    </tr>
+                                </table>
+
+                                <table>
+                                    <tr>
+                                        <td><strong>Athletics</strong></td>
+                                        <td>+3</td>
+                                        <td>
+                                            <strong>Coast:</strong> climbing, swimming<br />
+                                            <strong>Advantage:</strong> stability
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Brawn</strong></td>
+                                        <td>-3</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Charisma</strong></td>
+                                        <td>-2</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Dexterity</strong></td>
+                                        <td>+2</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Gadgetry</strong></td>
+                                        <td>+0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Glibness</strong></td>
+                                        <td>+0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Knowledge</strong></td>
+                                        <td>+0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Nature</strong></td>
+                                        <td>+3</td>
+                                        <td><strong>Uncapped:</strong> tracking (using sense of smell)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Perception</strong></td>
+                                        <td>+1</td>
+                                        <td>
+                                            <strong>Coast:</strong> awareness of surroundings<br />
+                                            <strong>Advantage:</strong> notice or locate strong or distinctive scents
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Stealth</strong></td>
+                                        <td>+3</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <h5>Passive:</h5>
+                                <table>
+                                    <tr>
+                                        <td><strong>Tiny Size:</strong> Situational +5 or -5 when compared with a larger (or smaller) creature.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Animal Type:</strong> Cannot speak most languages. Illiterate.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Low-Light Vision:</strong> Treat nonmagical dim conditions as brightly lit.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Spread Filth Fever:</strong> A creature resting after being bitten by the cave rat must make a Fortitude save (TN 10) vs. contracting the initial stage of filth fever.</td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div id="cave-rat-actions">
+
+                                <table>
+                                    <tr>
+                                        <td><strong>Fortitude</strong> +0</td>
+                                        <td><strong>Reflex</strong> +2</td>
+                                        <td><strong>Willpower</strong> +0</td>
+                                        <td><strong>Defense</strong> +2</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>VP</strong> 9</td>
+                                        <td><strong>AV</strong> 0</td>
+                                        <td><strong>Resistance</strong> 5</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Coast Number</strong> 7</td>
+                                        <td><strong>Awesome</strong> +5</td>
+                                        <td><strong>Heroic/Spellcraft</strong> +0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>XP Reward</strong> 25</td>
+                                    </tr>
+                                </table>
+
+                                <h5 class="buffer-below">Speed 5</h5>
+
+                                <table>
+                                    <tr>
+                                        <th><h5>Attacks</h5></th>
+                                        <th>Impact</th>
+                                        <th>Damage Type</th>
+                                        <th>Accuracy</th>
+                                        <th>Peril</th>
+                                        <th>Range(s)</th>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Bite:</strong></td>
+                                        <td class="center">1d4-2</td>
+                                        <td class="center"">piercing</td>
+                                        <td class="center">12</td>
+                                        <td class="center">2</td>
+                                        <td class="center">melee 0</td>
+                                    </tr>
+                                </table>
+
+                                <h5>Opportunity Actions</h5>
+                                <table>
+                                    <tr>
+                                        <td><strong>Swarm Assault:</strong> When cave rat and an ally are both pressuring the same target, and at least one of them has momentum, and the ally hits the target with a melee attack, cave rat may make a melee attack against the target.</td>
+                                    </tr>
+                                </table>
+
+                                <h5>Passive:</h5>
+                                <table>
+                                    <tr>
+                                        <td><strong>Tiny Size:</strong> Situational +5 or -5 when compared with a larger (or smaller) creature.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Animal Type:</strong> Cannot speak most languages. Illiterate.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Low-Light Vision:</strong> Treat nonmagical dim conditions as brightly lit.</td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div id="cave-rat-inventory">
+
+                                <table>
+                                    <tr>
+                                        <td colspan="4"><strong>XP Reward</strong> 25</td>
+                                    </tr>
+                                </table>
+                                
+                                <h5>Equipment</h5>
+                                <table>
+                                    <tr>
+                                        <td><strong>Loot:</strong> 1</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div id="cave-rat-lifestyle">
+
+                                <table>
+                                    <tr>
+                                        <td><strong>Fortitude</strong> +0</td>
+                                        <td><strong>Reflex</strong> +2</td>
+                                        <td><strong>Willpower</strong> +0</td>
+                                        <td><strong>Defense</strong> +2</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>VP</strong> 9</td>
+                                        <td><strong>AV</strong> 0</td>
+                                        <td><strong>Resistance</strong> 5</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Coast Number</strong> 7</td>
+                                        <td><strong>Awesome</strong> +5</td>
+                                        <td><strong>Heroic/Spellcraft</strong> +0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><strong>XP Reward</strong> 25</td>
+                                    </tr>
+                                </table>
+                                
+                                <table>
+                                    <tr>
+                                        <td><strong>Athletics</strong></td>
+                                        <td>+3</td>
+                                        <td>
+                                            <strong>Coast:</strong> climbing, swimming<br />
+                                            <strong>Advantage:</strong> stability
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Brawn</strong></td>
+                                        <td>-3</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Charisma</strong></td>
+                                        <td>-2</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Dexterity</strong></td>
+                                        <td>+2</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Gadgetry</strong></td>
+                                        <td>+0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Glibness</strong></td>
+                                        <td>+0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Knowledge</strong></td>
+                                        <td>+0</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Nature</strong></td>
+                                        <td>+3</td>
+                                        <td><strong>Uncapped:</strong> tracking (using sense of smell)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Perception</strong></td>
+                                        <td>+1</td>
+                                        <td>
+                                            <strong>Coast:</strong> awareness of surroundings<br />
+                                            <strong>Advantage:</strong> notice or locate strong or distinctive scents
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Stealth</strong></td>
+                                        <td>+3</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <h5>Passive:</h5>
+                                <table>
+                                    <tr>
+                                        <td><strong>Tiny Size:</strong> Situational +5 or -5 when compared with a larger (or smaller) creature.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Animal Type:</strong> Cannot speak most languages. Illiterate.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Low-Light Vision:</strong> Treat nonmagical dim conditions as brightly lit.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Spread Filth Fever:</strong> A creature resting after being bitten by the cave rat must make a Fortitude save (TN 10) vs. contracting the initial stage of filth fever. Also, the cave rat has advantage on saves vs. filth fever.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Filthy Squalor:</strong> Advantage on Fortitude saves vs. starvation.</td>
+                                    </tr>
+                                </table>                                
+
+                            </div>
+                            <div id="cave-rat-mechanics">
+                                <div class="kits">
+                                    <h5>Kits</h5>
+                                    <ul>
+                                        <li><a href="../Characters/Kits/Rat.html">1. Rat</a></li>
+                                        <li><a href="../Characters/Kits/Scout.html">1. Scout</a></li>
+                                    </ul>
+                                </div>
+                                <div class="feats">
+                                    <h5>Feats</h5>
+                                    <ul>
+                                        <li><a href="../Characters/Feats/SwarmAssault.html">1. Swarm Assault</a></li>
+                                    </ul>
+                                </div>
+                                <div class="talents">
+                                    <h5>Talents</h5>
+                                    <ul>
+                                        <li><a href="../Characters/Talents/SteadyClimber.html">1. Steady Climber</a></li>
+                                        <li><a href="../Characters/Talents/StableFooting.html">1. Stable Footing</a></li>
+                                        <li><a href="../Characters/Talents/KeenSmell.html">1. Keen Smell</a></li>
+                                        <li><a href="../Characters/Talents/FilthySqualor.html">1. Filthy Squalor</a></li>
+                                        <li><a href="../Characters/Talents/SpreadFilthFever.html">1. Spread Filth Fever</a></li>
+                                        <li><a href="../Characters/Talents/Swimmer.html">1. Swimmer</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statblock tab-container">
+                        <h3>Goblin - Level 1</h3>
+                        <ul class="etabs">
+                            <li class="tab"><a href="#goblin-overview">Overview</a></li>
+                            <li class="tab"><a href="#goblin-actions">Actions</a></li>
+                            <li class="tab"><a href="#goblin-inventory">Inventory</a></li>
+                            <li class="tab"><a href="#goblin-lifestyle">Lifestyle</a></li>
+                            <li class="tab"><a href="#goblin-mechanics">Mechanics</a></li>
+                        </ul>
+                        <div class="panel-container">
+                            <div id="goblin-overview">
+                                Here will be an overview statblock
+                            </div>
+                            <div id="goblin-actions">
+                                Here will be a detailing of the goblin's actions
+                            </div>
+                            <div id="goblin-inventory">
+                                Here will be loot info
+                            </div>
+                            <div id="goblin-lifestyle">
+                                Here will be noncombat information
+                            </div>
+                            <div id="goblin-mechanics">
+                                Here will be links to Kits, Feats, & Talents
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statblock tab-container">
+                        <h3>Ogre - Level 3</h3>
+                        <ul class="etabs">
+                            <li class="tab"><a href="#ogre-overview">Overview</a></li>
+                            <li class="tab"><a href="#ogre-actions">Actions</a></li>
+                            <li class="tab"><a href="#ogre-inventory">Inventory</a></li>
+                            <li class="tab"><a href="#ogre-lifestyle">Lifestyle</a></li>
+                            <li class="tab"><a href="#ogre-mechanics">Mechanics</a></li>
+                        </ul>
+                        <div class="panel-container">
+                            <div id="ogre-overview">
+                                Here will be an overview statblock
+                            </div>
+                            <div id="ogre-actions">
+                                Here will be a detailing of the ogre's actions
+                            </div>
+                            <div id="ogre-inventory">
+                                Here will be loot info
+                            </div>
+                            <div id="ogre-lifestyle">
+                                Here will be noncombat information
+                            </div>
+                            <div id="ogre-mechanics">
+                                Here will be links to Kits, Feats, & Talents
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 1}); // h3 and h4 only - method:1
+</script>

@@ -20,6 +20,10 @@ body {
     margin: auto;
 }
 
+.center {
+    text-align: center;
+}
+
 header {
     padding: 10px;
 }
@@ -78,6 +82,7 @@ nav li:hover {
 
 nav li a {
     padding: 0 10px;
+    font-family: Verdana, sans-serif;
     text-decoration: none;
 }
 
@@ -90,8 +95,12 @@ nav li a {
     position: relative;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     font-family: Verdana, sans-serif;
+}
+
+h5 {
+    font-size: 0.9em;
 }
 
 #sidebar {
@@ -239,12 +248,95 @@ article figcaption a:hover {
     text-decoration: underline;
 }
 
-article .character-sheet {
-    width: 100%;
+.statblock {
+    background-color: lightgray;
+    border-radius: 4px;
+    border: 3px double #555555;
+    padding: 5px;
+    margin: 1em 0;
 }
 
-#full-width {
-    width: 100%;
+.statblock h3 {
+    display: inline;
+    margin-right: 1.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.etabs {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.statblock .panel-container {
+    padding: 8px;
+    clear: right;
+}
+
+.tab {
+    display: inline-block;
+    background: #999999;
+    border: 1px solid #000000;
+    border-bottom: 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.tab a {
+    font-size: 1em;
+    line-height: 1.7em;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+}
+
+.tab a:hover {
+    text-decoration: underline;
+}
+
+.tab.active {
+    background: lightgray;
+    position: relative;
+    top: 1px;
+}
+
+.tab-container .panel-container {
+    margin: 0;
+    border: 1px solid #666666;
+}
+
+.statblock h5 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.statblock .kits, .statblock .feats, .statblock .talents {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.statblock .kits ul, .statblock .feats ul, .statblock .talents ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.statblock table {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.statblock td, .statblock th {
+    padding-right: 25px;
+}
+
+.statblock th {
+    padding-bottom: 0;
+}
+
+.statblock .buffer-below {
+    margin-bottom: 12px;
 }
 
 footer {
@@ -261,4 +353,13 @@ footer ul {
 footer li {
     float: left;
     margin: 0 8px 0 0;
+}
+
+#glossary dt {
+    font-weight: bold;
+}
+
+.or {
+    font-weight: bold;
+    color: #a50000;
 }

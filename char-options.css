@@ -1,4 +1,9 @@
 
+article {
+    width: 60%;
+    position: relative;
+}
+
 dl {
     width: 100%;
     padding: 0;
@@ -22,4 +27,24 @@ dd:before {
 
 h4 {
     clear: both;
+}
+
+/* Above this point is formatting for the index pages. Below is formatting for the individual pages. I was too lazy to make separate CSS files. */
+
+h2 {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h5 {
+    margin-bottom: 3px;
+    padding-bottom: 0;
+}
+
+article ul {
+    margin-top: 2px;
 }

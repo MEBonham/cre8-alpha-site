@@ -4,10 +4,12 @@
         <meta charset="utf-8">
         <link rel="icon" href="../assets/cre8aFavicon.ico">
         <title>CRE8 RPG: Alpha</title>
+
         <link rel="stylesheet" href="../main.css">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-        <script src="../scripts/accordion.js"></script>
-        <script src="../scripts/jQuery-toc.js"></script>
+
+        <script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../scripts/jQuery-toc.js"></script>
     </head>
     <body>
         <div id="max-container">
@@ -32,18 +34,19 @@
             <div id="content">
                 <div id="sidebar">
                     <div id="accordion">
-                        <h1 class="gold accordion-toggle">Table of Contents</h1>
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
                         <div class="gold-panel accordion-content default" id="TOC">
                             <!-- Populated by JavaScript -->
                         </div>
                     </div>
                 </div>
                 <article>
-                    <h2>Settings</h2>
-                    <h3>Ferkathas</h3>
-                    <h4>NPCs</h4>
-                    <h3>Gyzaninar</h3>
-                    <h2>Modules</h2>
+                    <h2>Context</h2>
+                    <h3>Settings</h3>
+                    <h4>Ferkathas</h4>
+                    <h5>NPCs</h5>
+                    <h4>Gyzaninar</h4>
+                    <h3>Modules</h3>
                 </article>
             </div>
             <footer>
@@ -51,7 +54,6 @@
                     <ul>
                         <li>Links:</li>
                         <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
-                        <li><a href="http://dnd.wizards.com" target="_blank">Dungeons & Dragons homepage</a></li>
                     </ul>
                 </div>
             </footer>
@@ -60,5 +62,5 @@
 </html>
 
 <script>
-    $('#TOC').TOC('#content', {startLevel: 2, depth: 3}); // h3 and h4 only - method:1
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 3}); // h3 and h4 only - method:1
 </script>
