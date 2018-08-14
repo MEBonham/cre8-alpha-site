@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="../small-sidebar.css">
+
+        <script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../scripts/jQuery-toc.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.hashchange.min.js"></script>
+        <script type="text/javascript" src="../scripts/jquery.easytabs.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready( function() {
+                $('.tab-container').easytabs();
+            });
+        </script>
+
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Characters/index.html">Characters</a></li>
+                    <li><a href="../Rules/index.html">Rules</a></li>
+                    <li><a href="../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../Magic/index.html">Magic</a></li>
+                    <li id="selected-tab"><a href="index.html">Bestiary</a></li>
+                    <li><a href="../Examples/index.html">Examples</a></li>
+                    <li><a href="../Context/index.html">Context</a></li>
+                    <li><a href="../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <div id="accordion">
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <article>
+                    <h2>Pre-Built Characters</h2>
+                    <h3>Four Choices</h3>
+                    <h4>Fighter</h4>
+                    <table class="progression-chart">
+                        <tr>
+                            <td colspan="4"><a href="PBFighter.html">(detailed version)</a></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Kits</th>
+                            <th>Feats</th>
+                            <th>Talents</th>
+                        </tr>
+                        <tr>
+                            <td><strong>L1</strong></td>
+                            <td>(choose one racial: <a href="../Characters/Kits/HumanParagon.html">Human Paragon</a> + Rhino's Charge, <a href="../Characters/Kits/Dwarf.html">Dwarf</a>, <a href="../Characters/Kits/Elf.html">Elf</a>, Halfling, <span class="or">or</span> Orc), Soldier</td>
+                            <td><a href="../Characters/Feats/Toughness.html">Toughness</a></td>
+                            <td>(choose one occupational: Armorsmith, Blacksmith, Engineering, Farmer, Sailor, <span class="or">or</span> Weaponsmith), <a href="../Characters/Talents/Proficiency.html">Proficiency (heavy blades)</a>, <a href="../Characters/Talents/ShieldProficiency.html">Shield Proficiency</a>, <a href="../Characters/Talents/Rider.html">Rider</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>L2</strong></td>
+                            <td></td>
+                            <td>Cleave</td>
+                            <td>Hold the Line</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L3</strong></td>
+                            <td>Guardian</td>
+                            <td>(choose one for variety: Flurry Attack, Shield Block, Stunt Attack, <span class="or">or</span> Thicket of Blades)</td>
+                            <td>Heavy Armor Proficiency, Weapon Focus (heavy blades)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L4</strong></td>
+                            <td></td>
+                            <td>Expert Parry</td>
+                            <td>Improved Initiative</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L5</strong></td>
+                            <td>Blade Master</td>
+                            <td><a href="../Characters/Feats/RallyingStrike.html">Rallying Strike</a></td>
+                            <td><a href="../Characters/Talents/Endurance.html">Endurance</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>L6</strong></td>
+                            <td></td>
+                            <td>Dazing Strike</td>
+                            <td>Courtly Manner</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L7</strong></td>
+                            <td>Tactician</td>
+                            <td>Veteran's Grit</td>
+                            <td><a href="../Characters/Talents/MightyConstitution.html">Mighty Constitution</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>L8</strong></td>
+                            <td></td>
+                            <td>Guardian's Rebuke</td>
+                            <td>Staredown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L9</strong></td>
+                            <td>Mythic Figure</td>
+                            <td></td>
+                            <td>Defy Gravity</td>
+                        </tr>
+                    </table>
+
+                    <h4>Mage</h4>
+                    <table class="progression-chart">
+                        <tr>
+                            <td colspan="4"><a href="PBMage.html">(detailed version)</a></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Kits</th>
+                            <th>Feats</th>
+                            <th>Talents</th>
+                        </tr>
+                        <tr>
+                            <td><strong>L1</strong></td>
+                            <td>(choose one racial: <a href="../Characters/Kits/HumanParagon.html">Human Paragon</a> + Weapon Ward, <a href="../Characters/Kits/Dwarf.html">Dwarf</a>, <a href="../Characters/Kits/Elf.html">Elf</a>, Halfling, <span class="or">or</span> Orc), Wizard</td>
+                            <td>Energy Blast; Vanish in spellbook</td>
+                            <td>Lore of Arcana, Cantrips, Mage Armor, Speak Language (Draconic), Fire Seed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L2</strong></td>
+                            <td></td>
+                            <td>Hindering Zone</td>
+                            <td>Cold Seed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L3</strong></td>
+                            <td>Magician</td>
+                            <td>Dispel</td>
+                            <td>Aura Sight, Luck Seed, Weave Seed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L4</strong></td>
+                            <td></td>
+                            <td>Bestow Curse</td>
+                            <td>Fireball</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L5</strong></td>
+                            <td>Loremaster</td>
+                            <td>Mage Flight</td>
+                            <td>Lightning Seed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L6</strong></td>
+                            <td></td>
+                            <td>Spell Ward</td>
+                            <td>Shadow Seed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L7</strong></td>
+                            <td>Archmage</td>
+                            <td>Glamer</td>
+                            <td>Sage Spellcasting</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L8</strong></td>
+                            <td></td>
+                            <td>Tactical Blink</td>
+                            <td>Finger of Death</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L9</strong></td>
+                            <td>Mythic Figure</td>
+                            <td></td>
+                            <td>Foresight</td>
+                        </tr>
+                    </table>
+
+                    <h4>Rogue</h4>
+                    <table class="progression-chart">
+                        <tr>
+                            <td colspan="4"><a href="PBRogue.html">(detailed version)</a></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Kits</th>
+                            <th>Feats</th>
+                            <th>Talents</th>
+                        </tr>
+                        <tr>
+                            <td><strong>L1</strong></td>
+                            <td>(choose one racial: <a href="../Characters/Kits/HumanParagon.html">Human Paragon</a> + Dirty Trick, <a href="../Characters/Kits/Dwarf.html">Dwarf</a>, <a href="../Characters/Kits/Elf.html">Elf</a>, Halfling, <span class="or">or</span> Orc), <a href="../Characters/Kits/Thief.html">Thief</a></td>
+                            <td>Dodge</td>
+                            <td>Streetwise, <a href="../Characters/Talents/LightArmorProficiency.html">Light Armor Proficiency</a>, <a href="../Characters/Talents/Proficiency.html">Proficiency (light blades), Lucky Attitude, <a href="../Characters/Talents/Legerdemain.html">Legerdemain</a>, Lockpicking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L2</strong></td>
+                            <td></td>
+                            <td>Stunt Attack</td>
+                            <td>Trapfinder</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L3</strong></td>
+                            <td>Dungeoneer</td>
+                            <td>Improvisation</td>
+                            <td>Evasion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L4</strong></td>
+                            <td></td>
+                            <td><a href="../Characters/Feats/SneakAttack.html">Sneak Attack</a></td>
+                            <td>Improved Initiative</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L5</strong></td>
+                            <td>Factotum</td>
+                            <td>Heroic Surge</td>
+                            <td><a href="../Characters/Talents/WeaponFinesse.html">Weapon Finesse</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>L6</strong></td>
+                            <td></td>
+                            <td>Battle Banter</td>
+                            <td>Opportunist</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L7</strong></td>
+                            <td>Rogue</td>
+                            <td>Anyfeat</td>
+                            <td>Saber Training, Snake-Tongued</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L8</strong></td>
+                            <td></td>
+                            <td>Two-Weapon Style</td>
+                            <td>Lightning Agility</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L9</strong></td>
+                            <td>Mythic Figure</td>
+                            <td></td>
+                            <td>Defy Gravity</td>
+                        </tr>
+                    </table>
+
+                    <h4>Cleric</h4>
+                    <table class="progression-chart">
+                        <tr>
+                            <td colspan="4"><a href="PBCleric.html">(detailed version)</a></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Kits</th>
+                            <th>Feats</th>
+                            <th>Talents</th>
+                        </tr>
+                        <tr>
+                            <td><strong>L1</strong></td>
+                            <td>(choose one racial: <a href="../Characters/Kits/HumanParagon.html">Human Paragon</a> + Bestow Curse, <a href="../Characters/Kits/Dwarf.html">Dwarf</a>, <a href="../Characters/Kits/Elf.html">Elf</a>, Halfling, <span class="or">or</span> Orc), <a href="../Characters/Kits/Thief.html">Priest</a></td>
+                            <td>Healing Touch</td>
+                            <td>Lore of Divinity, <a href="../Characters/Talents/LightArmorProficiency.html">Light Armor Proficiency</a>, Healer, Radiant Seed, Luck Seed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L2</strong></td>
+                            <td></td>
+                            <td>Evoke Fortune</td>
+                            <td>Battlecast</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L3</strong></td>
+                            <td>Spellblade</td>
+                            <td>Exorcism</td>
+                            <td><a href="../Characters/Talents/MightyConstitution.html">Mighty Constitution</a>, Heavy Armor Proficiency</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L4</strong></td>
+                            <td></td>
+                            <td>Energy Strike</td>
+                            <td>Sphere of Divinity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L5</strong></td>
+                            <td>Radiant</td>
+                            <td>Call Ally</td>
+                            <td><a href="../Characters/Talents/ShieldProficiency.html">Shield Proficiency</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>L6</strong></td>
+                            <td></td>
+                            <td>Weapon Ward</td>
+                            <td><a href="../Characters/Talents/Proficiency.html">Proficiency (clubs)</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>L7</strong></td>
+                            <td>Champion</td>
+                            <td>Dispel</td>
+                            <td>Mind Seed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L8</strong></td>
+                            <td></td>
+                            <td>Anyspell</td>
+                            <td>Speak Language (Celestial)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>L9</strong></td>
+                            <td>Mythic Figure</td>
+                            <td></td>
+                            <td>Foresight</td>
+                        </tr>
+                    </table>
+
+                    <h3>Six More Choices</h3>
+                    <ul>
+                        <li><a href="PBBarbarian.html">Barbarian</a></li>
+                        <li><a href="PBPaladin.html">Paladin</a></li>
+                        <li><a href="PBRanger.html">Ranger</a></li>
+                        <li><a href="PBWarlock.html">Warlock</a></li>
+                        <li><a href="PBBard.html">Bard</a></li>
+                        <li><a href="PBDruid.html">Druid</a></li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>
