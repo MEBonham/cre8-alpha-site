@@ -48,3 +48,7 @@ h5 {
 article ul {
     margin-top: 2px;
 }
+
+.title {
+    font-style: italic;
+}

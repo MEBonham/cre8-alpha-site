@@ -299,6 +299,7 @@ article figcaption a:hover {
     background: lightgray;
     position: relative;
     top: 1px;
+    padding-top: 1px;
 }
 
 .tab-container .panel-container {
@@ -328,7 +329,7 @@ article figcaption a:hover {
 }
 
 .statblock td, .statblock th {
-    padding-right: 25px;
+    padding-right: 15px;
 }
 
 .statblock th {
