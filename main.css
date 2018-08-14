@@ -221,6 +221,29 @@ h5 {
     width: 92%;
 }
 
+#sidebar table {
+    margin: 10px;
+    border: 3px double #444444;
+    border-top: 1px solid #444444;
+    background: #d3c8ba;
+    padding: 10px;
+}
+
+#sidebar table caption {
+    border: 3px double #444444;
+    border-bottom: none;
+    background: #d3c8ba;
+    font-weight: bold;
+}
+
+#sidebar td {
+    padding-right: 5px;
+}
+
+tr.odd {
+    background: #d1d1d1;
+}
+
 article {
     width: 55%;
     padding: 15px;

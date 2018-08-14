@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li><a href="../Feats/index.html">Feats</a></li>
+                        <li>
+                            <a href="index.html">Talents</a>
+                            <ul>
+                                <li><a href="AllTalents.html">ALL Talents</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <table>
+                        <caption>Favored Enemy Categories</caption>
+                        <tr>
+                            <th>Creature Category</th>
+                            <th>Prerequisite</th>
+                        </tr>
+                        <tr class="odd">
+                            <td>Aberrations and Oozes</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>[Air] Creatures</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Animals and Plants</td>
+                            <td>Nature 1 rank.</td>
+                        </tr>
+                        <tr>
+                            <td>Celestials</td>
+                            <td>Knowledge 1 rank.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Constructs</td>
+                            <td>Gadgetry 1 rank.</td>
+                        </tr>
+                        <tr>
+                            <td>Dragons</td>
+                            <td>Knowledge 1 rank.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Dwarves</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>[Earth] Creatures</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Elves</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Fiends</td>
+                            <td>Knowledge 1 rank.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Fey</td>
+                            <td>Nature 1 rank.</td>
+                        </tr>
+                        <tr>
+                            <td>[Fire] Creatures</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Giants</td>
+                            <td>Athletics 1 rank.</td>
+                        </tr>
+                        <tr>
+                            <td>Goblinoids</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Halflings</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Humans</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Miscellaneous Humanoids</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Miscellaneous Monsters</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Miscellaneous Outsiders</td>
+                            <td>Knowledge 1 rank.</td>
+                        </tr>
+                        <tr>
+                            <td>Orcs</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Reptilian Humanoids</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Undead</td>
+                            <td></td>
+                        </tr>
+                        <tr class="odd">
+                            <td>[Water] Creatures</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <article>
+                    <h2>Favored Enemy</h2>
+                    <h3>Talent</h3>
+                    <p>Select a category of creatures from the provided table (which may vary depending on campaign setting).</p>
+                    <h5>Prerequisites:</h5>
+                    <p>See table.</p>
+                    <h5>Benefit:</h5>
+                    <p>When dealing with a creature of the selected variety, you have advantage on Perception checks to detect a hidden creature, on checks to track, and on checks to discern sincerity. While you have momentum, you add +1d4 to impact on attacks targeting the given category of creatures.</p>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>
