@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                </div>
+                <article>
+                    <h2>Vanish</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Air, Fire, Illusory, Lightning, Luck, Mind, Shadow, Weave</p>
+                    <h5>Target:</h5>
+                    <p>One creature.</p>
+                    <h5>Range:</h5>
+                    <p>Touch (i.e. within your fray).</p>
+                    <h5>Duration:</h5>
+                    <p>Encounter, or until expended</p>
+                    <h5>Base Effect:</h5>
+                    <p>The target becomes invisible for the duration of the spell. If the target makes an attack, the spell is expended.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1:</strong> Increase duration to two hours.</li>
+                        <li><strong>MP +2:</strong> Cast this spell as a swift action. You must be the sole target of the spell.</li>
+                        <li><strong>MP +3:</strong> The spell is not expended if the target attacks.</li>
+                        <li><strong>MP +3:</strong> Target a number of creatures equal to your Spellcraft modifier. All targets must be within your sector.</li>
+                        <li><strong>MP +4:</strong> Increase duration to one day.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li><strong>Any (MP +2):</strong> This spell may be used regardless of active seed, but at an increased cost.</li>
+                        <li><strong>Air:</strong> Using this spell with the Air Seed works normally.</li>
+                        <li><strong>Fire (MP +1):</strong> Using this spell with the Fire Seed works normally, but at an increased cost.</li>
+                        <li>
+                            <strong>Illusory:</strong> Using this spell with the Illusory Seed works normally.
+                            <ul>
+                                <li><strong>MP +2:</strong> The target is replaced by an illusionary copy. You may direct it similarly to an effect of the Glamer spell, but it is limited to depicting the target of the spell, and it ends when the Vanishing effect ends.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Lightning (MP +1):</strong> Using this spell with the Lightning Seed works normally, but at an increased cost.</li>
+                        <li><strong>Luck:</strong> Using this spell with the Luck Seed works normally.</li>
+                        <li>
+                            <strong>Mind (+1):</strong> Using this spell with the Mind Seed works normally, but at an increased cost.
+                            <ul>
+                                <li><strong>MP +1:</strong> While the effect lasts, the target may replace Stealth checks with your Spellcraft check.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Shadow:</strong> Using this spell with the Shadow Seed works normally.
+                            <ul>
+                                <li><strong>MP +0:</strong> Cast this spell as a swift action. You must be the sole target of the spell. Reduce duration to 1 round; it cannot be augmented.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Weave:</strong> Using this spell with the Weave Seed works normally.</li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

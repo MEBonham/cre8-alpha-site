@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                    <table>
+                        <caption>Alternative Hazard Menu</caption>
+                        <tr>
+                            <th>Requirement</th>
+                            <th>Hazard Effect</th>
+                        </tr>
+                        <tr class="odd">
+                            <td>(none)</td>
+                            <td>Target chooses: fall prone <span class="or">or</span> be dazed for 1 round.</td>
+                        </tr>
+                        <tr>
+                            <td>Peril triggered.</td>
+                            <td>Target dazed for 1 round.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>The target is currently performing an action.</td>
+                            <td><strong>Clobber:</strong> Negate target's current action.</td>
+                        </tr>
+                        <tr>
+                            <td>Target off-guard.</td>
+                            <td>Target stunned for 1 round.</td>
+                        </tr>
+                    </table>
+                </div>
+                <article>
+                    <h2>Glamer</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Fire, Illusory, Lightning, Mind, Radiant, Shadow, Water, Weave</p>
+                    <h5>Target:</h5>
+                    <p>One sector or the border between two sectors.</p>
+                    <h5>Range:</h5>
+                    <p>Within or bordering your sector.</p>
+                    <h5>Duration:</h5>
+                    <p>Encounter</p>
+                    <h5>Base Effect:</h5>
+                    <p>Create a visual image (a [Zone] effect). If it changes over time, it must be an easily predictible repeating pattern or steady progression. Make a Spellcraft check to see how convincing the illusion is.</p>
+                    <p>A creature beholding this illusion can automatically check to notice that it is an illusion; this is a Perception check, where the TN is the result of your Spellcraft check. (At the GM's option, the caster may not know whether this disbelief check was successful.) If something clearly gives away the glamer, such as the lack of sound when the image should be creating sound, the target gets an additional disbelief check (a TN 8 Willpower save).</p>
+                    <p>You automatically detect the falsehood of your own illusion, and you can allow allies who can hear you to automatically detect the falsehood of the illusion at the time of casting.</p>
+                    <p>Opaque glamers block line of sight for those who believe them. They provide concealment when their falsehood is detected (and even provide concealent against the caster of the illusion). Translucent glamers provide concealment against those who believe them.</p>
+                    <p>This spell can easily copy the effects of some other spells, such as Energy Blast, Call Ally, or Hindering Zone. If the illusion should be strongly harmful to a believing creature, such as being struck by a copy of Energy Blast or Call Ally, it functions as a spell attack due to causing mental trauma: 1d4 base impact, psychic damage, peril +0. This attack is opposed with a Willpower save, and secondary effects of the attack are determined by comparing impact to the target's Heroic Bonus (rather than AV). If the attack inflicts a hazard, select it from the provided menu instead of the normal Hazard Menu. When an attack like this is resolved, the target automatically disbelieves the illusion, due to its lack of actual physical force.</p>
+                    <h5>Sustain:</h5>
+                    <p>Standard action. This allows you to change the illusion to a new form. If the change is incongruous, it allows viewers a new Perception check to disbelieve the illusion.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1 (cumulative):</strong> Add an additional sector or sector-boundary to the spell's target. The entire [Zone] must be contiguous.</li>
+                        <li><strong>MP +1 (cumulative):</strong> Increase the spell's range by one sector.</li>
+                        <li><strong>MP +1:</strong> Increase duration to 1 hour.</li>
+                        <li><strong>MP +1:</strong> The illusion can make imprecise sounds (not intelligible speech, for example).</li>
+                        <li><strong>MP +2:</strong> If scary enough, the illusion provokes a Willpower save from believing observers (TN = the results of your Spellcraft check) against being affected by a [Fear 1] effect.</li>
+                        <li><strong>MP +2:</strong> Increase duration to 1 day.</li>
+                        <li><strong>MP +2:</strong> The illusion can make sounds, including speech or similar.</li>
+                        <li><strong>MP +2:</strong> If used as a spell attack, increase base impact by +1d4.</li>
+                        <li><strong>MP +3:</strong> The illusion includes sound, scents, and thermal effects.</li>
+                        <li><strong>MP +3:</strong> Increase duration to 3 days.</li>
+                        <li><strong>MP +4:</strong> Increase duration to 1 year.</li>
+                        <li><strong>MP +5:</strong> Increase duration to 100 years.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li><strong>Fire (MP +1):</strong> Using this spell with the Fire seed works normally, but at an increased cost.</li>
+                        <li>
+                            <strong>Illusory:</strong>
+                            <ul>
+                                <li><strong>MP +0:</strong> The illusion loses its visual element, but includes imprecise sounds instead.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Lightning:</strong> The illusion loses its visual element, but includes imprecise sounds instead.</li>
+                        <li><strong>Mind:</strong> Using this spell with the Mind seed works normally.</li>
+                        <li><strong>Radiant (MP +1):</strong> Using this spell with the Radiant seed works normally, but at an increased cost.</li>
+                        <li>
+                            <strong>Shadow:</strong>
+                            <ul>
+                                <li><strong>MP +2:</strong> The illusion is quasi-real and can interact with believing creatures. It can be used to make spell attacks: base impact 2d6, damage type depending on nature of illusion, peril +2. The target may oppose this attack with a Willpower save instead of the save it would normally use (generally Defense). If an effect of this glamer does not qualify as an attack, but would still physically affect a creature, that creature makes a Willpower save (TN = your Spellcraft result) to disbelieve the illusion and be unaffected by it, even if the creature does not wish to disbelieve the illusion (e.g. if using an illusionary bridge to cross a chasm).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Water (MP +1):</strong> Using this spell with the Water seed works normally, but at an increased cost.</li>
+                        <li><strong>Weave (MP +1):</strong> Using this spell with the Weave seed works normally, but at an increased cost.</li>
+                    </ul>
+                    <h5>Benefits:</h5>
+                    <ul>
+                        <li>Gain a +1 feat bonus to your Spellcraft check.</li>
+                        <li>Gain Illusory Seed as a bonus talent.</li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

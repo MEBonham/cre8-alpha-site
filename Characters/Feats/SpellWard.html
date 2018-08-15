@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                </div>
+                <article>
+                    <h2>Spell Ward</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 0 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Cold, Fire, Illusory, Lightning, Luck, Mind, Radiant, Shadow, Weave</p>
+                    <h5>Target:</h5>
+                    <p>One creature.</p>
+                    <h5>Range:</h5>
+                    <p>Touch (i.e. within your fray).</p>
+                    <h5>Duration:</h5>
+                    <p>Encounter, or until expended</p>
+                    <h5>Base Effect:</h5>
+                    <p>The target is warded; it may use your Spellcraft check in place of a saving throw against a spell attack. For this effect to work, you must spend 1 MP at the time of use, which does not require an action.</p>
+                    <p>If the replaced save succeeds, or if you do not spend 1 MP when the target makes a Defense save, the ward ends for that target unless you spend an opportunity action to sustain it.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1:</strong> Cast this spell as a swift action. You must be the sole target of the spell.</li>
+                        <li><strong>MP +1:</strong> Increase range to within your sector.</li>
+                        <li><strong>MP +2:</strong> The target rolls both its own saving throw and your Spellcraft check, and uses the better of the two results.</li>
+                        <li><strong>MP +3:</strong> Target a number of creatures equal to your Spellcraft modifier. All targets must be within your sector.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li><strong>Any (MP +2):</strong> This spell may be used regardless of active seed, but at an increased cost.</li>
+                        <li>
+                            <strong>Cold:</strong> When the target uses this effect against a spell attack that deals fire damage, he can also resist the attack. This expends the ward regardless of outcome (although it can still be sustained).
+                            <ul>
+                                <li><strong>MP +1:</strong> All effects of the ward may be used against <em>any</em> attack that deals fire damage.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Fire:</strong> When the target uses this effect against a spell attack that deals cold damage, he can also resist the attack. This expends the ward regardless of outcome (although it can still be sustained).
+                            <ul>
+                                <li><strong>MP +1:</strong> All effects of the ward may be used against <em>any</em> attack that deals cold damage.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Illusory:</strong> The ward is only effective against [Divination] effects.
+                            <ul>
+                                <li><strong>MP +2:</strong> The restriction to [Divination] effects is waived.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Lightning:</strong>
+                            <ul>
+                                <li><strong>MP +1:</strong> When the target uses the ward, the attacker takes incidental lightning damage equal to your Heroic Bonus.</li>
+                                <li><strong>MP +1:</strong> All effects of the ward may be used against <em>any</em> attack that deals acid damage.</li>
+                                <li><strong>MP +1:</strong> When the target uses this effect against a spell attack that deals lightnig or thunder damage, he can also resist the attack. This expends the ward regardless of outcome (although it can still be sustained).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Luck:</strong> The ward is not expended by a successful use; instead, the ward is expended (unless sustained) if the target <em>fails</em> its save while using the effect.</li>
+                        <li>
+                            <strong>Mind:</strong> The ward can only be used in place of a Willpower save.
+                            <ul>
+                                <li><strong>MP +1:</strong> When <em>you</em> (not another target) use the ward and it would be expended, sustain it as a free action.</li>
+                                <li><strong>MP +1:</strong> When the target uses this effect in place of a Willpower save, he can also resist the attack. This expends the ward regardless of outcome (although it can still be sustained).</li>
+                                <li><strong>MP +2:</strong> The restriction to replacing Willpower saves is waived.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Radiant:</strong> When the target uses this effect against a spell attack that deals necrotic damage, he can also resist the attack. This expends the ward regardless of outcome (although it can still be sustained).
+                            <ul>
+                                <li><strong>MP +1:</strong> All effects of the ward may be used against <em>any</em> attack that deals necrotic damage.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Shadow:</strong> When the target uses this effect against a spell attack that deals radiance damage, he can also resist the attack. This expends the ward regardless of outcome (although it can still be sustained).
+                            <ul>
+                                <li><strong>MP +1:</strong> All effects of the ward may be used against <em>any</em> attack that deals radiance damage.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Weave:</strong>
+                            <ul>
+                                <li><strong>MP +2:</strong> You may sustain the spell as a free action.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h5>Benefit:</h5>
+                    <p>Gain a +1 feat bonus to your Spellcraft check.</p>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                </div>
+                <article>
+                    <h2>Hindering Zone</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1; applicable seed.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Air, Cold, Earth, Fire, Lightning, Plant, Radiant, Shadow, Water, Weave</p>
+                    <h5>Target:</h5>
+                    <p>One sector or the border between two sectors, on a solid surface.</p>
+                    <h5>Range:</h5>
+                    <p>Within or bordering your sector.</p>
+                    <h5>Duration:</h5>
+                    <p>Encounter</p>
+                    <h5>Base Effect:</h5>
+                    <p>The target space is filled with a [Zone] effect that counts as difficult terrain. If the target space is a border between two sectors, then any creature moving betwee the two is affected by the difficult terrain.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1:</strong> Increase range to include adjacent sectors and their borders.</li>
+                        <li><strong>MP +1:</strong> Crossing the target (between two sectors) requires a Brawn check (TN 10).</li>
+                        <li><strong>MP +1 (cumulative):</strong> Add an additional target. All targets must be contiguous. Affecting more than three targets requires a Spellcraft check (TN 20); if this check fails, the additional MP beyong three targets are forfeit.</li>
+                        <li><strong>MP +2:</strong> Increase range to include two sectors away and their borders.</li>
+                        <li><strong>MP +2:</strong> The requirements for a solid surface are waived. This [Zone], unlike most difficult terrain, affects flying creatures.</li>
+                        <li><strong>MP +2:</strong> Increase duration to 1 day.</li>
+                        <li><strong>MP +3:</strong> Increase duration to 3 days.</li>
+                        <li><strong>MP +4:</strong> Increase duration to 1 year.</li>
+                        <li><strong>MP +5:</strong> Increase duration to 100 years.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li>
+                            <strong>Air (MP +1):</strong> The requirements for a solid surface are waived. This [Zone], unlike most difficult terrain, affects flying creatures.
+                            <ul>
+                                <li><strong>MP +2:</strong> When a creature enters the [Zone] for the first time on its turn, it takes incidental bludgeoning damage equal to your Heroic Bonus.</li>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Cold:</strong> When a creature enters the [Zone] for the first time on its turn, it takes incidental cold damage equal to your Heroic Bonus.
+                            <ul>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                                <li><strong>MP +2:</strong> The [Zone] is a physical barrier of ice between two sectors, which uses your Spellcraft check as its Structural Save and has an AV of (1 + your Heroic Bonus).</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Earth:</strong> The target must be on a surface of earth or stone, and cannot use the augment to affect flying creatures.
+                            <ul>
+                                <li><strong>MP +1:</strong> The requirement of earth or stone is waived, and the augment can be used normally.</li>
+                                <li><strong>MP +3:</strong> The [Zone] is a physical barrier between two sectors, which uses your Spellcraft check as its Structural Save and has an AV of (3 + your Heroic Bonus).</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Fire:</strong> When a creature enters the [Zone] for the first time on its turn, it takes incidental fire damage equal to your Heroic Bonus.
+                            <ul>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Lightning (MP +1):</strong> When a creature enters the [Zone] for the first time on its turn, it takes incidental lightning damage equal to your Heroic Bonus.
+                            <ul>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Plant:</strong> The target area must be where plants could (or do) grow, and cannot use the augment to affect flying creatures. When a creature enters the [Zone] for the first time on its turn, it takes incidental bludgeoning/slashing damage equal to your Heroic Bonus.</li>
+                            <ul>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                                <li><strong>MP +1:</strong> The requirement of a plant-friendly surface is waived, and the augment can be used normally.</li>
+                                <li><strong>MP +2:</strong> The [Zone] is a physical barrier of plants between two sectors, which uses your Spellcraft check as its Structural Save and has an AV of (1 + your Heroic Bonus).</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Radiant (MP +1):</strong> When a creature enters the [Zone] for the first time on its turn, it takes incidental radiance damage equal to your Heroic Bonus.
+                            <ul>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Shadow (MP +1):</strong> When a creature enters the [Zone] for the first time on its turn, it takes incidental necrotic damage equal to your Heroic Bonus.
+                            <ul>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Water:</strong> Creatures with the swim movement mode may ignore the difficult terrain and/or Brawn check.
+                            <ul>
+                                <li><strong>MP +1:</strong> Only your allies with the swim movement mode may ignore the difficult terrain and/or Brawn check.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Weave (MP +1):</strong> When a creature enters the [Zone] for the first time on its turn, it takes incidental slashing damage equal to your Heroic Bonus.
+                            <ul>
+                                <li><strong>MP +1:</strong> The incidental damage is applied to creatures starting their turn in the [Zone].</li>
+                                <li><strong>MP +4:</strong> The [Zone] is a physical barrier of force between two sectors, which uses your Spellcraft check as its Structural Save and has an AV of 10.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

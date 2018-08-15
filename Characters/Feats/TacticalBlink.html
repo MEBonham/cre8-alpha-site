@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                </div>
+                <article>
+                    <h2>Tactical Blink</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 3; applicable seed.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Air, Earth, Fire, Lightning, Luck, Mind, Plant, Radiant, Shadow, Water, Weave</p>
+                    <h5>Target:</h5>
+                    <p>Self</p>
+                    <h5>Range:</h5>
+                    <p>Within your sector or adjacent sectors.
+                    <h5>Base Effect:</h5>
+                    <p>Teleport to a location within range. You must be able to see the destination, and have line of effect to it.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1:</strong> Cast this spell as a move action.</li>
+                        <li><strong>MP +1:</strong> You do not need line of effect to the destination.</li>
+                        <li><strong>MP +1 (cumulative):</strong> Range increases by one sector.</li>
+                        <li><strong>MP +2:</strong> Change the target to a willing ally, designated by touch (i.e. within your fray).</li>
+                        <li><strong>MP +2:</strong> The requirement to see the destination is waived.</li>
+                        <li><strong>MP +3:</strong> Cast this spell as a swift action.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li><strong>Air:</strong> Casting this spell with the Air seed works normally.</li>
+                        <li>
+                            <strong>Earth:</strong> The origin and destination must both be adjacent to the same sizable body of earth or stone.
+                            <ul>
+                                <li><strong>MP +2:</strong> The origin and destination may be adjacent to separate bodies of earth or stone.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Fire:</strong>
+                            <ul>
+                                <li><strong>MP +2:</strong> Cast this spell as an opportunity action in response to an attack targeting you. Your destination must be in the fray of the triggering attacker.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Lightning (MP +1):</strong> Deal incidental lightning damage, equal to the total MP cost of this spell, to all creatures in the origin and destination frays (except the teleporting creature).
+                            <ul>
+                                <li><strong>MP +1:</strong> Only foes take the incidental lightning damage.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Mind:</strong> Casting this spell with the Mind seed works normally.</li>
+                        <li><strong>Plant:</strong> The origin and destination must each be adjacent to a plant body at least as big as the teleporting creature.</li>
+                        <li><strong>Radiant (MP +1):</strong> Casting this spell with the Radiant seed works normally, but at an increased MP cost.</li>
+                        <li>
+                            <strong>Shadow:</strong> The requirement to see the destination is waived. The origin and destination cannot be in bright light.
+                            <ul>
+                                <li><strong>MP +1:</strong> The origin can be in bright light.</li>
+                                <li><strong>MP +1:</strong> The destination can be in bright light.</li>
+                                <li><strong>MP +2:</strong> Cast this spell as a swift action. Its range increases by 1 sector.
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Water:</strong> The origin and destination must both be adjacent to the same sizable body of water.
+                            <ul>
+                                <li><strong>MP +1:</strong> The origin and destination may be adjacent to separate bodies of water.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Weave:</strong> Casting this spell with the Weave seed works normally.</li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

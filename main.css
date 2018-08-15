@@ -363,6 +363,10 @@ article figcaption a:hover {
     margin-bottom: 12px;
 }
 
+.progression-chart h4 {
+    margin-bottom: 3px;
+}
+
 .progression-chart td {
     padding: 4px;
     border: 1px solid #555555;

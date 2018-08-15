@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                    <table>
+                        <caption>Alternative Hazard Menu</caption>
+                        <tr>
+                            <th>Requirement</th>
+                            <th>Hazard Effect</th>
+                        </tr>
+                        <tr class="odd">
+                            <td>(none)</td>
+                            <td><strong>Clobber:</strong> target is staggered until the end of its next turn.</td>
+                        </tr>
+                        <tr>
+                            <td>Target has momentum.</td>
+                            <td>Target loses momentum (and may not expend momentum to nullify hazards inflicted by this attack).</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>An (A) Augment <em>(below)</em>.</td>
+                            <td>Target shaken for the duration of the spell.</td>
+                        </tr>
+                        <tr>
+                            <td>Caster Level 2; peril triggered.</td>
+                            <td>Target blinded for the duration of the spell.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Target off-guard.</td>
+                            <td>Target dazed for the duration of the spell.</td>
+                        </tr>
+                        <tr>
+                            <td>Shadow Seed; Caster Level 4; peril triggered; target off-guard.</td>
+                            <td>Target dies.</td>
+                        </tr>
+                    </table>
+                </div>
+                <article>
+                    <h2>Bestow Curse</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1; applicable seed.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Animal, Illusory, Luck, Mind, Shadow</p>
+                    <h5>Target:</h5>
+                    <p>One creature within range.</p>
+                    <h5>Duration:</h5>
+                    <p>Encounter</p>
+                    <h5>Base Effect:</h5>
+                    <p>Make a spell attack against the target(s): impact 1d8, necrotic damage, peril +0, range 20/40/60 ft. This attack is opposed by a Willpower save. If this attack inflicts a hazard, select it from the provided menu instead of the normal Hazard Menu.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +0:</strong> Reduce base impact to 1d4. Compare impact to Heroic Bonus, rather than AV, to determine secondary effects.
+                        <li><strong>MP +1 (cumulative):</strong> Reduce base impact to 1d4. Compare impact to Heroic Bonus, rather than AV, to determine secondary effects. Add an additional target. All targets must be within one sector.</li>
+                        <li><strong>MP +2:</strong> Add +1d4 impact.</li>
+                        <li><strong>MP +2:</strong> Increase duration to 3 days.</li>
+                        <li><strong>MP +3:</strong> Increase duration to permanent.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li><strong>Any (MP +2):</strong> This spell may be used regardless of active seed, but at an increased cost.</li>
+                        <li><strong>Animal:</strong> If the target would be dropped by this spell, it is instead changed into a small, helpless animal for the duration of the spell. This is a [Shapeshift] effect.</li>
+                        <li>
+                            <strong>Illusory:</strong> The target has advantage on its save against this attack. This spell is a [Fear] effect.
+                            <ul>
+                                <li><strong>MP +1:</strong> The spell no longer counts as a [Fear] effect.
+                                <li><strong>MP +2:</strong> The spell no longer counts as a [Fear] effect. The target no longer has advantage on its save.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Luck:</strong>
+                            <ul>
+                                <li><strong>MP +2:</strong> If this attack inflicts a hazard, gain momentum.</li>
+                                <li><strong>MP +2:</strong> Augment (A) for hazard selection.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Mind:</strong>
+                            <ul>
+                                <li><strong>MP +1:</strong> Augment (A) for hazard selection. This spell is a [Fear] effect.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Shadow:</strong>
+                            <ul>
+                                <li><strong>MP +1:</strong> Attack range reduced to touch range (i.e. within your fray); peril rating increases by +5.</li>
+                                <li><strong>MP +1:</strong> You may choose hazards from the normal Hazard Menu.</li>
+                                <li><strong>MP +1:</strong> Augment (A) for hazard selection. This spell is a [Fear] effect.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

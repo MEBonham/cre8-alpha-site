@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                </div>
+                <article>
+                    <h2>Energy Blast</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1; applicable seed.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Air, Cold, Fire, Lightning, Water, Weave</p>
+                    <h5>Target:</h5>
+                    <p>One creature within range, plus splash damage.</p>
+                    <h5>Base Effect:</h5>
+                    <p>Make a spell attack against the target(s): impact 2d6, damage type dependent on seed, peril +0, range 20/40/60 ft.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1:</strong> Range increases to 30/60/120 ft.</li>
+                        <li><strong>MP +1 (cumulative):</strong> Reduce base impact to 2d4. Add an additional target. All targets must be within the same sector. Each target can contribute to splash damage (but no target can be affected multiple times by one casting of the spell).</li>
+                        <li><strong>MP +1:</strong> Prevent splash damage. This augment is incompatible with the previous augment.</li>
+                        <li><strong>MP +2:</strong> Add +1d4 impact.</li>
+                        <li><strong>MP +2:</strong> Range increases to 60/150/400 ft.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li><strong>Air:</strong> The attack deals bludgeoning damage. Reduce base impact from 2d6 to 2d4, or from 2d4 to 1d8.</li>
+                        <li>
+                            <strong>Cold:</strong> The attack deals cold damage.
+                            <ul>
+                                <li><strong>MP +1 (cumulative):</strong> Peril rating is increased by +2 (maximum +8).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Fire:</strong> The attack deals fire damage.</li>
+                        <li>
+                            <strong>Lightning:</strong> The attack deals lightning damage.
+                            <ul>
+                                <li><strong>MP +1:</strong> Prevent splash damage (even if there are multiple targets).</li>
+                                <li><strong>MP +1:</strong> The attack does thunder damage instead of lightning damage.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Water:</strong> The attack deals bludgeoning damage. Reduce base impact from 2d6 to 2d4, or from 2d4 to 1d8.</li>
+                        <li><strong>Weave (+1):</strong> The attack deals typeless damage.</li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>
