@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../main.css">
+
+        <script type="text/javascript" src="../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Characters/index.html">Characters</a></li>
+                    <li id="selected-tab"><a href="index.html">Rules</a></li>
+                    <li><a href="../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../Magic/index.html">Magic</a></li>
+                    <li><a href="../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../Examples/index.html">Examples</a></li>
+                    <li><a href="../Context/index.html">Context</a></li>
+                    <li><a href="../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <div id="accordion">
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content default" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <article>
+                    <h2>Attacks</h2>
+                    <h3>Hazards</h3>
+                    <table class="hazard-menu">
+                        <caption>Normal Hazard Menu</caption>
+                        <tr>
+                            <th>Requirement</th>
+                            <th>Hazard Effect</th>
+                        </tr>
+                        <tr class="odd">
+                            <td>Attack is an opportunity attack.</td>
+                            <td><strong>Clobber:</strong> negate target's current action.</td>
+                        </tr>
+                        <tr>
+                            <td>Target is not currently performing an action.</td>
+                            <td><strong>Clobber:</strong> target is staggered until the end of its next turn.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>You are bigger than the target.</td>
+                            <td>Push the target, a total distance equal to 5 ft times the number of size categories difference.</td>
+                        </tr>
+                        <tr>
+                            <td>You are bigger than the target <span class="or">and</span> target is staggered.</td>
+                            <td>Knock the target prone.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Target off-guard <span class="or">or</span> peril triggered.</td>
+                            <td>Inflict the wounded condition on the target.</td>
+                        </tr>
+                        <tr>
+                            <td>Target off-guard <span class="or">and</span> wounded.</td>
+                            <td>Inflict the dying condition on the target.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Target off-guard <span class="or">and</span> dying.</td>
+                            <td>Drop the target.</td>
+                        </tr>
+                    </table>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+    console.log("This runs");
+</script>

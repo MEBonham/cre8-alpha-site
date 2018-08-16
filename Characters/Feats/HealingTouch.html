@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                </div>
+                <article>
+                    <h2>Healing Touch</h2>
+                    <h3>[Core] [Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1; Charisma 2 ranks; applicable seed.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Animal, Luck, Mind, Plant, Radiant, Shadow, Water</p>
+                    <h5>Target:</h5>
+                    <p>One creature within range.</p>
+                    <h5>Range:</h5>
+                    <p>Touch (i.e. within your fray).</p>
+                    <h5>Base Effect:</h5>
+                    <p>If the target is dropped, it loses the dropped condition (but not the prone condition). If the target is not dropped, it heals VP equal to half its VP Pool.</p>
+                    <p>If the target is dying, it also becomes stable.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1:</strong> The target, if not dying, can attempt a Fortitude save (TN 20) to lose the wounded condition.</li>
+                        <li><strong>MP +2:</strong> The target loses the dropped condition <em>and</em> heals VP equal to half its VP Pool.</li>
+                        <li><strong>MP +2:</strong> If the target would heal half its VP Pool, it instead heals <em>all</em> VP damage.</li>
+                        <li><strong>MP +2:</strong> The target can attempt a Fortitude save (TN 20) to lose the dying condition.</li>
+                        <li><strong>MP +2:</strong> Casting this spell does not provoke opportunity attacks.</li>
+                        <li><strong>MP +3:</strong> The target, if not dying, loses the wounded condition.</li>
+                        <li><strong>MP +3:</strong> The target loses the dropped condition <em>and</em> heals <em>all</em> VP.</li>
+                        <li><strong>MP +4:</strong> Target a number of creatures equal to your Spellcraft modifier. All targets must be in one sector.</li>
+                        <li><strong>MP +4:</strong> The target loses the dying condition.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li>
+                            <strong>Animal:</strong> The target must not be undead. If you spend at least 2 MP total on the spell and the target is an animal, recycle 1 MP.
+                            <ul>
+                                <li><strong>MP +2:</strong> If the target is willing, you may negate a [Shapeshift] effect on the target.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Luck (+1):</strong> Using this spell with the Luck seed works normally, but at an increased cost.</li>
+                        <li>
+                            <strong>Mind:</strong> You must be a target of the spell.
+                            <ul>
+                                <li><strong>MP +1:</strong> The spell may target another creature.</li>
+                                <li><strong>MP +2:</strong> The spell may target another creature. Increase range to within your sector.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Plant:</strong> The target must not be undead.
+                            <ul>
+                                <li><strong>MP +1:</strong> The target may stand from prone as a free action without provoking opportunity attacks.</li>
+                                <li><strong>MP +2:</strong> Increase range to within your sector. The target must be in contact with the earth or with a plant at least comparable in size with itself.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Radiant:</strong> The target must not be undead.
+                            <ul>
+                                <li><strong>MP +1:</strong> Increase range to within your sector.</li>
+                                <li><strong>MP +3:</strong> Target a number of creatures equal to your Spellcraft modifier. All targets must be in one sector.</li>
+                                <li><strong>MP +5:</strong> You may target a corpse that has been dead for less than an encounter. If you succeed on a TN 25 Spellcraft check, this target loses the dead condition before applying the other effects of the spell.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Shadow:</strong> The target must be undead or Blighted.</li>
+                        <li>
+                            <strong>Water:</strong> The target must not be undead.
+                            <ul>
+                                <li><strong>MP +1:</strong> Increase range to within your sector.</li>
+                                <li><strong>MP +1:</strong> The target may be undead.</li>
+                                <li><strong>MP +1:</strong> The target, if not dying, can attempt a Fortitude save (TN 20) to lose the wounded condition. You may perform a first aid check in place of this Fortitude save.</li>
+                                <li><strong>MP +2:</strong> The target can attempt a Fortitude save (TN 20) to lose the dying condition. You may perform a first aid check in place of this Fortitude save.</li>
+                                <li><strong>MP +3:</strong> Target a number of creatures equal to your Spellcraft modifier. All targets must be in one sector.</li>
+                                <li><strong>MP +6:</strong> You may target a corpse that has been dead for less than an encounter. If you succeed on a TN 25 Spellcraft check, this target loses the dead condition before applying the other effects of the spell.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>

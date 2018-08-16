@@ -377,6 +377,21 @@ article figcaption a:hover {
     padding-right: 10px;
 }
 
+table.hazard-menu {
+    margin: 10px;
+    border: 3px double #444444;
+    border-top: 1px solid #444444;
+    background: #d3c8ba;
+    padding: 10px;
+}
+
+table.hazard-menu caption {
+    border: 3px double #444444;
+    border-bottom: none;
+    background: #d3c8ba;
+    font-weight: bold;
+}
+
 footer {
     clear: both;
     font-size: 0.8em;

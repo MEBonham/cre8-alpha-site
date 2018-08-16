@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+        <link rel="stylesheet" href="../../char-options.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../../index.html"><img id="page-icon" src="../../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li id="selected-tab"><a href="../index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li><a href="../../Magic/index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="../Kits/index.html">Kits</a></li>
+                        <li>
+                            <a href="index.html">Feats</a>
+                            <ul>
+                                <li><a href="AllFeats.html">ALL Feats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Talents/index.html">Talents</a></li>
+                    </ul>
+                    <table>
+                        <caption>Alternative Hazard Menu</caption>
+                        <tr>
+                            <th>Requirement</th>
+                            <th>Hazard Effect</th>
+                        </tr>
+                        <tr class="odd">
+                            <td>(none)</td>
+                            <td><strong>Clobber:</strong> target is staggered until the end of its next turn.</td>
+                        </tr>
+                        <tr>
+                            <td>Peril triggered</td>
+                            <td>Target cannot approach closer to you for the duration of the spell. Target is staggered until the end of its next turn.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Impact exceeds target's remaining VP.</td>
+                            <td>Target attempts to flee from you for the duration of the spell.</td>
+                        </tr>
+                        <tr>
+                            <td>Fire <span class="or">or</span> Radiant Seed; impact exceeds target's remaining VP.</td>
+                            <td>Target must make a Fortitude save (TN 15). On a success, it is wounded, and staggered until the end of its next turn. On a failure, it is immediately destroyed.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Shadow Seed; peril triggered.</td>
+                            <td>Target dazed for the duration of the spell.</td>
+                        </tr>
+                        <tr>
+                            <td>Shadow Seed; target dazed; impact exceeds target's remaining VP.</td>
+                            <td>Target takes a standard action of your choice (see domination rules for limitations). If you sustain the spell, target is affected by attack again.</td>
+                        </tr>
+                    </table>
+                </div>
+                <article>
+                    <h2>Exorcism</h2>
+                    <h3>[Spell] Feat</h3>
+                    <h5>Prerequisites:</h5>
+                    <p>Caster Level 1; applicable seed.</p>
+                    <h5>Action: Standard</h5>
+                    <h5>Base MP Cost: 1 MP</h5>
+                    <h5>Seeds:</h5>
+                    <p>Fire, Mind, Radiant, Shadow</p>
+                    <h5>Target:</h5>
+                    <p>All Blighted creatures in your sector.</p>
+                    <h5>Duration:</h5>
+                    <p>While sustained, plus one round.</p>
+                    <h5>Base Effect:</h5>
+                    <p>Make a spell attack against the target(s): impact 1d12, damage type dependent on seed, peril +0, range 20/40/60 ft. Targets can oppose this attack with Fortitude or Willpower. Undead <em>can</em> take attrition damage from this attack. If this attack inflicts a hazard, select it from the provided menu instead of the normal Hazard Menu.</p>
+                    <p>If any creatures in the spell's effect are [Possessed] by Blighted creatures, this spell has the capability to target the possessing entity without harming the [Possessed] creature.</p>
+                    <h5>Augment:</h5>
+                    <ul>
+                        <li><strong>MP +1:</strong> If this attack inflicts a hazard, select a hazard from the normal Hazard Menu in addition to a hazard from the menu provided here.</li>
+                        <li><strong>MP +2 (cumulative):</strong> Add an additional sector, adjacent to your sector, to the area affected by this spell.</li>
+                        <li><strong>MP +2:</strong> Target a single Blighted creature instead of all Blighted creatures in an area. Add +1d4 impact.</li>
+                    </ul>
+                    <h5>Seed Effects:</h5>
+                    <ul>
+                        <li><strong>Fire (MP +1):</strong> The attack deals fire damage.</li>
+                        <li>
+                            <strong>Mind:</strong> The attack deals psychic damage.
+                            <ul>
+                                <li><strong>MP +5:</strong> Any possessing creature is automatically expelled from their shell, regardless of what other effects the attack has on them.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Radiant:</strong> The attack deals radiance damage. The attack deals +1d4 impact to undead creatures, although this does not stack with any vulnerability to radiance damage that they may have normally.</li>
+                        <li><strong>Shadow:</strong> The attack deals necrotic damage.</li>
+                    </ul>
+                    <h5>Sustain:</h5>
+                    <p>Standard action; spend 1 MP.</p>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 2}); // h3 and h4 only - method:1
+</script>
