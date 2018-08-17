@@ -422,9 +422,14 @@ article figcaption a:hover {
     clear: right;
 }
 
+.detailed-stat-sheet td {
+    font-size: 0.9em;
+}
+
 .detailed-stat-sheet h5 {
     margin-top: 0;
     margin-bottom: 2px;
+    font-size: 1.1em;
 }
 
 /* .detailed-stat-sheet .kits, .detailed-stat-sheet .feats, .detailed-stat-sheet .talents {
