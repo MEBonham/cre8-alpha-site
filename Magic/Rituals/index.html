@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../Characters/index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li id="selected-tab"><a href="../index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <div id="accordion">
+                        <h2 class="gold accordion-toggle">Table of Contents</h2>
+                        <div class="gold-panel accordion-content" id="TOC">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                        <h2 class="gray accordion-toggle">Ritual Description Links</h2>
+                        <div class="gray-panel accordion-content default">
+                            <ul>
+                                <li><a href="IdentifyItem.html">Identify Item</a></li>
+                                <li><a href="UnseenServant.html">Unseen Servant</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+                <article>
+                    <h2>Rituals</h2>
+                    <p>Adventurers interact a lot with spells, which are magic that has been refined and distilled to the point that it can be used in a few seconds. Spells are important for someone who plans to use magic to stay alive in the chaos of violent comflict, but they are not the most flexible, most common, or most powerful kind of magic.</p>
+                    <p>Magical effects that are <em>not</em> especially notable for their combat potential are called <strong>rituals.</strong> They usually take a lot longer to perform than spells, and many of them are much more expensive as well. But the variety of things rituals can accomplish is staggering, and a well-rounded adventuring party would be wise to keep rituals in its book of potential solutions to problems. Which might be a literal book in this case.</p>
+                    <h3>Scrolls and Spellbooks</h3>
+                    <p>A ritual can be accessed from a scroll, or from a spellbook. A scroll is a one-use version of a ritual; it is consumed after the ritual is performed. A spellbook can contain a reusable set of instructions for completing the ritual.</p>
+                    <p>Making a scroll requires using the Scribe Scroll ritual. Creating a scroll also involves paying the standard component cost (see below) for the ritual being inscribed.</p>
+                    <p>Adding a ritual to a spellbook involves having a copy of the ritual and spending (1d4 + the ritual's Level) hours adapting and copying the instructions. At the completion of this process, the copier must attempt a Spellcraft check to complete the process successfully. The TN of this check is 8 + (2 times the ritual's Level), and if it fails, then the copied instructions fade, and the copier will automatically fail at further attempts to copy it until certain qualifications are met. If a ritual is copied from a scroll, the scroll is consumed upon successful completion of the copying process. The copied ritual occupies a number of pages in the spellbook equal to its Level.</p>
+                    <h4>Copy Re-Attempt Qualifications</h4>
+                    <p>A character who wishes to have another chance at scribing a ritual in a spellbook can spend 5 days studying that spell (in a library or similar place of magical study), then attempt a TN 18 Knowledge check. Otherwise, the character must either gain a level or wait for a full month of in-game time, then pass a TN 15 Willpower save. Once either of these TNs is met, the copying process can be attempted anew.</p>
+                    <h3>Ritual Breakdown</h3>
+                    <h4>Level</h4>
+                    <p>This determines how long it takes to copy a ritual to a spellbook, the TN for the Spellcraft check to copy the ritual, and the number of pages the ritual occupies in the spellbook.</p>
+                    <h5>Copyable?</h5>
+
+                    <h4>Casting Time</h4>
+
+                    <h4>Standard Component Cost</h4>
+
+                    <h4>Other Components</h4>
+
+                    <h5>Quest Components</h5>
+
+                    <h4>MP Cost</h4>
+
+                    <h4>Variations</h4>
+                    <p>Many rituals are far from standardized. Spellcasters are always trying to research improvements to them&mdash;and they often succeed, at the cost of making the rituals' effects more specific. This section gives suggestions to the GM about the kinds of variations that may be found for the ritual, but things like reducing the casting time and component cost of the ritual are common if the ritual is limited to during certain phases of the moon, or only in certain magical locations, and so forth.</p>
+                    <p>Variations on standard rituals are often named for their original researcher.</p>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 3});
+</script>

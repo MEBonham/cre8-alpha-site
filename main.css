@@ -432,6 +432,12 @@ article figcaption a:hover {
     font-size: 1.1em;
 }
 
+.detailed-stat-sheet h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
 /* .detailed-stat-sheet .kits, .detailed-stat-sheet .feats, .detailed-stat-sheet .talents {
     display: inline-block;
     margin: 0 8px;
