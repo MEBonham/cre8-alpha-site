@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../../assets/cre8aFavicon.ico">
+        <title>CRE8 RPG: Alpha</title>
+
+        <link rel="stylesheet" href="../../main.css">
+
+        <script type="text/javascript" src="../../scripts/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../../scripts/accordion.js"></script>
+        <script type="text/javascript" src="../../scripts/jQuery-toc.js"></script>
+    </head>
+    <body>
+        <div id="max-container">
+            <header>
+                <a href="../index.html"><img id="page-icon" src="../assets/cre8aLogo.png" alt="icon" /></a>
+                <h1>CRE8 RPG: Alpha</h1>
+                <p><em>Ready to role-play?</em></p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../Characters/index.html">Characters</a></li>
+                    <li><a href="../../Rules/index.html">Rules</a></li>
+                    <li><a href="../../Equipment/index.html">Equipment</a></li>
+                    <li id="selected-tab"><a href="../index.html">Magic</a></li>
+                    <li><a href="../../Bestiary/index.html">Bestiary</a></li>
+                    <li><a href="../../Examples/index.html">Examples</a></li>
+                    <li><a href="../../Context/index.html">Context</a></li>
+                    <li><a href="../../About/index.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="sidebar">
+                    <ul>
+                        <li><a href="index.html">Rituals</a></li>
+                    </ul>
+                    <table>
+                        <caption>Modifiers</caption>
+                        <tr>
+                            <th>Situation</th>
+                            <th>Modifier to 1d6</th>
+                        </tr>
+                        <tr class="odd">
+                            <td>Each (partial) 100 miles beyond first 100 miles</td>
+                            <td class="center">+1</td>
+                        </tr>
+                        <tr>
+                            <td>Destination intimately familiar to ritualist</td>
+                            <td class="center">-1</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Destination quite familiar to ritualist</td>
+                            <td class="center">+0</td>
+                        </tr>
+                        <tr>
+                            <td>Destination somewhat familiar to ritualist</td>
+                            <td class="center">+2</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Destination not familiar to ritualist</td>
+                            <td class="center">+5</td>
+                        </tr>
+                        <tr>
+                            <td>Each MP spent to augment ritual</td>
+                            <td class="center">-1</td>
+                        </tr>
+                        <tr class="odd">
+                            <td>Ritualist has a focus (including one of the targets) that is closely tied to destination</td>
+                            <td class="center">-2</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <caption>Consequences</caption>
+                        <tr>
+                            <th>Roll Result</th>
+                            <th>Effect</th>
+                        </tr>
+                        <tr class="odd">
+                            <td class="center">7 or less</td>
+                            <td>Arrive safely at intended destination.</td>
+                        </tr>
+                        <tr>
+                            <td class="center">8</td>
+                            <td>Arrive within 800 + 2d% feet of intended destination. Backlash impact: 1d4.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td class="center">9-10</td>
+                            <td>Travel 80 + 2d20 percent of intended distance, in intended direction +/- 10 degrees. Backlash impact: 1d8.</td>
+                        </tr>
+                        <tr>
+                            <td class="center">11-12</td>
+                            <td>Travel 180 + 1d% + 1d20 miles (+100 per augment MP), in intended direction +/- 30 degrees. Backlash impact: 1d10.</td>
+                        </tr>
+                        <tr class="odd">
+                            <td class="center">13 or greater</td>
+                            <td>Travel 180 + 1d% + 1d20 miles (+100 per augment MP), in random direction. Backlash impact: 1d12.</td>
+                        </tr>
+                    </table>
+                </div>
+                <article>
+                    <h2>Teleport</h2>
+                    <h3>[Arcane] Ritual</h3>
+                    <h5>Level: 4</h5>
+                    <h5>Copyable? Yes</h5>
+                    <h5>Casting Time:</h5>
+                    <p>10 minutes</p>
+                    <h5>Standard Component Cost: 23</h5>
+                    <h5>MP Cost: 4</h5>
+                    <h5>Target:</h5>
+                    <p>Self, plus willing touched creatures</p>
+                    <h5>Effect:</h5>
+                    <p>The maximum number of creatures that can be targeted by this ritual is equal to the ritualist's Spellcraft modifer, including the ritualist herself. Creatures larger than Medium size count as an additional creature for every size category greater than Medium.</p>
+                    <p>Upon completion of this ritual, the target(s) are instantly transported to a destination on the same plane.</p>
+                    <p>The destination is most often a place that has been prepared as a teleport destination. Using the ritual in this way is safer, and effectively extends the distance that the teleportation can cover: 1000 miles, plus 500 miles for each additional MP spent to augment the ritual.</p>
+                    <p>If the destination is not a specifically prepared location, then the distance of the teleport is limited by the danger of a mishap. Roll 1d6 and add modifiers as directed on the table, based on the distance to be traveled, the properties of the destination location, and the amount of MP spent on the ritual. Then consult the subsequent table to determine whether the ritual deposits its subjects safely and to their intended destination.</p>
+                    <h5>Backlash Attacks</h5>
+                    <p>In the case of a teleportation mishap, the creatures being teleported are struck as if by an attack. The impact of these attacks is given on the table. These attacks have accuracy 20, peril rating 5, deal typeless damage, are opposed by a Fortitude save, and the GM chooses the hazards they inflict (if any). Their secondary effects are determined by comparison with the targets' Heroic Bonuses, rather than the targets' AV.</p>
+                    <h5>Variations:</h5>
+                    <p>Numerous variations on this standard ritual exist. Most often, they have much more specific destinations. In return for this lesser flexibility, they may have shorter casting times or especially lower standard component costs.</p>
+                </article>
+            </div>
+            <footer>
+                <div class="to-be-centered">
+                    <ul>
+                        <li>Links:</li>
+                        <li><a href="https://roll20.net" target="_blank">Roll20 virtual tabletop</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<script>
+    $('#TOC').TOC('#content', {startLevel: 3, depth: 3});
+</script>
